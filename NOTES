@@ -1,0 +1,6 @@
+PCBs to make:
+ - core - TD4 itself
+ - clock/reset - clock generator (fixed/variable) + reset circuits
+ - ROM - all 256 bytes on a single PCB
+ - RAM - 16 bytes per PCB
+ - backplane - 20 slots for all other PCBs + power circuits

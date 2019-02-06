@@ -1,0 +1,463 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1650 1200 1900 2950
+U 5C594EF5
+F0 "Register file" 50
+F1 "register_file.sch" 50
+F2 "In_0" I L 1650 1350 101
+F3 "In_1" I L 1650 1500 101
+F4 "In_2" I L 1650 1650 101
+F5 "In_3" I L 1650 1800 101
+F6 "nRESET" I L 1650 3700 101
+F7 "CLK" I L 1650 3550 101
+F8 "Reg_sel_0" I L 1650 2800 101
+F9 "Reg_sel_1" I L 1650 2950 101
+F10 "Reg_sel_2" I L 1650 3100 101
+F11 "Reg_sel_3" I L 1650 3250 101
+F12 "Out_A_0" I R 3550 1350 101
+F13 "Out_A_1" I R 3550 1500 101
+F14 "Out_A_2" I R 3550 1650 101
+F15 "Out_A_3" I R 3550 1800 101
+F16 "Out_B_0" I R 3550 2050 101
+F17 "Out_B_1" I R 3550 2200 101
+F18 "Out_B_2" I R 3550 2350 101
+F19 "Out_B_3" I R 3550 2500 101
+F20 "Out_OUT_0" I R 3550 2800 101
+F21 "Out_OUT_1" I R 3550 2950 101
+F22 "Out_OUT_2" I R 3550 3100 101
+F23 "Out_OUT_3" I R 3550 3250 101
+F24 "Out_PC_0" I R 3550 3550 101
+F25 "Out_PC_1" I R 3550 3700 101
+F26 "Out_PC_2" I R 3550 3850 101
+F27 "Out_PC_3" I R 3550 4000 101
+$EndSheet
+$Sheet
+S 8450 1900 1150 1750
+U 5C594F14
+F0 "Adder" 50
+F1 "Adder.sch" 50
+F2 "A_0" I L 8450 2050 101
+F3 "B_0" I L 8450 3050 101
+F4 "A_1" I L 8450 2200 101
+F5 "B_1" I L 8450 3200 101
+F6 "A_2" I L 8450 2350 101
+F7 "B_2" I L 8450 3350 101
+F8 "A_3" I L 8450 2500 101
+F9 "B_3" I L 8450 3500 101
+F10 "Sum_0" I R 9600 2550 101
+F11 "Sum_1" I R 9600 2700 101
+F12 "Sum_2" I R 9600 2850 101
+F13 "Sum_3" I R 9600 3000 101
+F14 "C_out" I R 9600 3300 101
+$EndSheet
+$Sheet
+S 3750 5350 2150 1950
+U 5C594F41
+F0 "Instruction decoder" 50
+F1 "Decoder.sch" 50
+$EndSheet
+$Sheet
+S 5250 1250 1350 2100
+U 5C594F9A
+F0 "Multiplexer 4x 4->1" 50
+F1 "Multiplexer_4x_4-1.sch" 50
+F2 "In_A_0" I L 5250 1350 101
+F3 "In_A_1" I L 5250 1500 101
+F4 "In_A_2" I L 5250 1650 101
+F5 "In_A_3" I L 5250 1800 101
+F6 "In_B_0" I L 5250 2050 101
+F7 "In_B_1" I L 5250 2200 101
+F8 "In_B_2" I L 5250 2350 101
+F9 "In_B_3" I L 5250 2500 101
+F10 "In_IN_0" I L 5250 2750 101
+F11 "In_IN_1" I L 5250 2900 101
+F12 "In_IN_2" I L 5250 3050 101
+F13 "In_IN_3" I L 5250 3200 101
+F14 "Sel_0" I R 6600 3050 101
+F15 "Sel_1" I R 6600 3200 101
+F16 "Out_0" I R 6600 2050 101
+F17 "Out_1" I R 6600 2200 101
+F18 "Out_2" I R 6600 2350 101
+F19 "Out_3" I R 6600 2500 101
+$EndSheet
+$Sheet
+S 8450 3950 1150 750 
+U 5C5950B1
+F0 "Carry" 50
+F1 "Carry.sch" 50
+F2 "C_in" I L 8450 4100 101
+F3 "CLK" I L 8450 4400 101
+F4 "nRESET" I L 8450 4550 101
+F5 "nC_out" I R 9600 4100 101
+$EndSheet
+Wire Wire Line
+	3550 1350 3850 1350
+Entry Wire Line
+	3850 1350 3950 1450
+Entry Wire Line
+	3850 1500 3950 1600
+Entry Wire Line
+	3850 1650 3950 1750
+Entry Wire Line
+	3850 1800 3950 1900
+Wire Wire Line
+	3550 1500 3850 1500
+Wire Wire Line
+	3550 1650 3850 1650
+Wire Wire Line
+	3550 1800 3850 1800
+Text Label 3850 1350 2    50   ~ 0
+0
+Text Label 3850 1500 2    50   ~ 0
+1
+Text Label 3850 1650 2    50   ~ 0
+2
+Text Label 3850 1800 2    50   ~ 0
+3
+Wire Wire Line
+	2300 6300 2000 6300
+Entry Wire Line
+	2000 6300 1900 6400
+Entry Wire Line
+	2000 6450 1900 6550
+Entry Wire Line
+	2000 6600 1900 6700
+Entry Wire Line
+	2000 6750 1900 6850
+Wire Wire Line
+	2300 6450 2000 6450
+Wire Wire Line
+	2300 6600 2000 6600
+Wire Wire Line
+	2300 6750 2000 6750
+Text Label 2000 6300 0    50   ~ 0
+0
+Text Label 2000 6450 0    50   ~ 0
+1
+Text Label 2000 6600 0    50   ~ 0
+2
+Text Label 2000 6750 0    50   ~ 0
+3
+Wire Wire Line
+	5250 1350 4950 1350
+Entry Wire Line
+	4950 1350 4850 1450
+Entry Wire Line
+	4950 1500 4850 1600
+Entry Wire Line
+	4950 1650 4850 1750
+Entry Wire Line
+	4950 1800 4850 1900
+Wire Wire Line
+	5250 1500 4950 1500
+Wire Wire Line
+	5250 1650 4950 1650
+Wire Wire Line
+	5250 1800 4950 1800
+Text Label 4950 1350 0    50   ~ 0
+0
+Text Label 4950 1500 0    50   ~ 0
+1
+Text Label 4950 1650 0    50   ~ 0
+2
+Text Label 4950 1800 0    50   ~ 0
+3
+Wire Bus Line
+	3950 1350 4850 1350
+Wire Wire Line
+	3550 2050 3850 2050
+Entry Wire Line
+	3850 2050 3950 2150
+Entry Wire Line
+	3850 2200 3950 2300
+Entry Wire Line
+	3850 2350 3950 2450
+Entry Wire Line
+	3850 2500 3950 2600
+Wire Wire Line
+	3550 2200 3850 2200
+Wire Wire Line
+	3550 2350 3850 2350
+Wire Wire Line
+	3550 2500 3850 2500
+Text Label 3850 2050 2    50   ~ 0
+0
+Text Label 3850 2200 2    50   ~ 0
+1
+Text Label 3850 2350 2    50   ~ 0
+2
+Text Label 3850 2500 2    50   ~ 0
+3
+Wire Wire Line
+	5250 2050 4950 2050
+Entry Wire Line
+	4950 2050 4850 2150
+Entry Wire Line
+	4950 2200 4850 2300
+Entry Wire Line
+	4950 2350 4850 2450
+Entry Wire Line
+	4950 2500 4850 2600
+Wire Wire Line
+	5250 2200 4950 2200
+Wire Wire Line
+	5250 2350 4950 2350
+Wire Wire Line
+	5250 2500 4950 2500
+Text Label 4950 2050 0    50   ~ 0
+0
+Text Label 4950 2200 0    50   ~ 0
+1
+Text Label 4950 2350 0    50   ~ 0
+2
+Text Label 4950 2500 0    50   ~ 0
+3
+Wire Bus Line
+	3950 2050 4850 2050
+Wire Wire Line
+	6600 2050 6900 2050
+Entry Wire Line
+	6900 2050 7000 2150
+Entry Wire Line
+	6900 2200 7000 2300
+Entry Wire Line
+	6900 2350 7000 2450
+Entry Wire Line
+	6900 2500 7000 2600
+Wire Wire Line
+	6600 2200 6900 2200
+Wire Wire Line
+	6600 2350 6900 2350
+Wire Wire Line
+	6600 2500 6900 2500
+Text Label 6900 2050 2    50   ~ 0
+0
+Text Label 6900 2200 2    50   ~ 0
+1
+Text Label 6900 2350 2    50   ~ 0
+2
+Text Label 6900 2500 2    50   ~ 0
+3
+Wire Wire Line
+	8450 2050 8150 2050
+Entry Wire Line
+	8150 2050 8050 2150
+Entry Wire Line
+	8150 2200 8050 2300
+Entry Wire Line
+	8150 2350 8050 2450
+Entry Wire Line
+	8150 2500 8050 2600
+Wire Wire Line
+	8450 2200 8150 2200
+Wire Wire Line
+	8450 2350 8150 2350
+Wire Wire Line
+	8450 2500 8150 2500
+Text Label 8150 2050 0    50   ~ 0
+0
+Text Label 8150 2200 0    50   ~ 0
+1
+Text Label 8150 2350 0    50   ~ 0
+2
+Text Label 8150 2500 0    50   ~ 0
+3
+Wire Bus Line
+	7000 2050 8050 2050
+Wire Wire Line
+	9600 2550 9900 2550
+Entry Wire Line
+	9900 2550 10000 2650
+Entry Wire Line
+	9900 2700 10000 2800
+Entry Wire Line
+	9900 2850 10000 2950
+Entry Wire Line
+	9900 3000 10000 3100
+Wire Wire Line
+	9600 2700 9900 2700
+Wire Wire Line
+	9600 2850 9900 2850
+Wire Wire Line
+	9600 3000 9900 3000
+Text Label 9900 2550 2    50   ~ 0
+0
+Text Label 9900 2700 2    50   ~ 0
+1
+Text Label 9900 2850 2    50   ~ 0
+2
+Text Label 9900 3000 2    50   ~ 0
+3
+Wire Wire Line
+	9600 3300 9900 3300
+Wire Wire Line
+	9900 3300 9900 3800
+Wire Wire Line
+	9900 3800 8100 3800
+Wire Wire Line
+	8100 3800 8100 4100
+Wire Wire Line
+	8100 4100 8450 4100
+Text GLabel 8300 4400 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	8300 4400 8450 4400
+Text GLabel 8300 4550 0    50   Input ~ 0
+nRESET
+Wire Wire Line
+	8300 4550 8450 4550
+Text GLabel 1450 3550 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	1450 3550 1650 3550
+Text GLabel 1450 3700 0    50   Input ~ 0
+nRESET
+Wire Wire Line
+	1450 3700 1650 3700
+Wire Wire Line
+	1650 1350 1350 1350
+Entry Wire Line
+	1350 1350 1250 1450
+Entry Wire Line
+	1350 1500 1250 1600
+Entry Wire Line
+	1350 1650 1250 1750
+Entry Wire Line
+	1350 1800 1250 1900
+Wire Wire Line
+	1650 1500 1350 1500
+Wire Wire Line
+	1650 1650 1350 1650
+Wire Wire Line
+	1650 1800 1350 1800
+Text Label 1350 1350 0    50   ~ 0
+0
+Text Label 1350 1500 0    50   ~ 0
+1
+Text Label 1350 1650 0    50   ~ 0
+2
+Text Label 1350 1800 0    50   ~ 0
+3
+Wire Wire Line
+	1650 2800 1350 2800
+Entry Wire Line
+	1350 2800 1250 2900
+Entry Wire Line
+	1350 2950 1250 3050
+Entry Wire Line
+	1350 3100 1250 3200
+Entry Wire Line
+	1350 3250 1250 3350
+Wire Wire Line
+	1650 2950 1350 2950
+Wire Wire Line
+	1650 3100 1350 3100
+Wire Wire Line
+	1650 3250 1350 3250
+Text Label 1350 2800 0    50   ~ 0
+0
+Text Label 1350 2950 0    50   ~ 0
+1
+Text Label 1350 3100 0    50   ~ 0
+2
+Text Label 1350 3250 0    50   ~ 0
+3
+Wire Wire Line
+	3550 2800 3850 2800
+Entry Wire Line
+	3850 2800 3950 2900
+Entry Wire Line
+	3850 2950 3950 3050
+Entry Wire Line
+	3850 3100 3950 3200
+Entry Wire Line
+	3850 3250 3950 3350
+Wire Wire Line
+	3550 2950 3850 2950
+Wire Wire Line
+	3550 3100 3850 3100
+Wire Wire Line
+	3550 3250 3850 3250
+Text Label 3850 2800 2    50   ~ 0
+0
+Text Label 3850 2950 2    50   ~ 0
+1
+Text Label 3850 3100 2    50   ~ 0
+2
+Text Label 3850 3250 2    50   ~ 0
+3
+Wire Wire Line
+	3550 3550 3850 3550
+Entry Wire Line
+	3850 3550 3950 3650
+Entry Wire Line
+	3850 3700 3950 3800
+Entry Wire Line
+	3850 3850 3950 3950
+Entry Wire Line
+	3850 4000 3950 4100
+Wire Wire Line
+	3550 3700 3850 3700
+Wire Wire Line
+	3550 3850 3850 3850
+Wire Wire Line
+	3550 4000 3850 4000
+Text Label 3850 3550 2    50   ~ 0
+0
+Text Label 3850 3700 2    50   ~ 0
+1
+Text Label 3850 3850 2    50   ~ 0
+2
+Text Label 3850 4000 2    50   ~ 0
+3
+Wire Wire Line
+	5250 2750 4950 2750
+Entry Wire Line
+	4950 2750 4850 2850
+Entry Wire Line
+	4950 2900 4850 3000
+Entry Wire Line
+	4950 3050 4850 3150
+Entry Wire Line
+	4950 3200 4850 3300
+Wire Wire Line
+	5250 2900 4950 2900
+Wire Wire Line
+	5250 3050 4950 3050
+Wire Wire Line
+	5250 3200 4950 3200
+Text Label 4950 2750 0    50   ~ 0
+0
+Text Label 4950 2900 0    50   ~ 0
+1
+Text Label 4950 3050 0    50   ~ 0
+2
+Text Label 4950 3200 0    50   ~ 0
+3
+Wire Bus Line
+	8050 2050 8050 2600
+Wire Bus Line
+	7000 2050 7000 2600
+Wire Bus Line
+	4850 2050 4850 2600
+Wire Bus Line
+	3950 2050 3950 2600
+Wire Bus Line
+	4850 1350 4850 1900
+Wire Bus Line
+	3950 1350 3950 1900
+$EndSCHEMATC
