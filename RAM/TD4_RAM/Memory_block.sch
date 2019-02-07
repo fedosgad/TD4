@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:TD4_RAM-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -744,14 +745,6 @@ F 3 "" H 8450 6300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 6300 8450 6100
-Wire Bus Line
-	7100 1200 7100 3850
-Wire Bus Line
-	5700 1200 5700 6650
-Wire Bus Line
-	2450 2600 2450 7300
-Wire Bus Line
-	4050 1050 4050 7300
 Connection ~ 8450 6100
 Wire Wire Line
 	8450 6100 8250 6100
@@ -765,4 +758,12 @@ Text Notes 7500 2950 0    100  ~ 0
 Data outputs\n
 Text Notes 8100 4550 0    100  ~ 0
 Decoupling
+Wire Bus Line
+	7100 1200 7100 3850
+Wire Bus Line
+	5700 1200 5700 6650
+Wire Bus Line
+	2450 2600 2450 7300
+Wire Bus Line
+	4050 1050 4050 7300
 $EndSCHEMATC
