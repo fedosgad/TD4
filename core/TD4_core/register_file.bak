@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 9
 Title "TD4 core module"
 Date ""
 Rev "v1.0"
@@ -439,7 +439,7 @@ Wire Wire Line
 Text Notes 8400 4300 0    101  ~ 0
 Decoupling
 Text HLabel 5500 1850 2    50   Output ~ 0
-A
+A[0..3]
 Entry Wire Line
 	5050 2900 5150 3000
 Entry Wire Line
@@ -459,7 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3200 5050 3200
 Text HLabel 5500 3300 2    50   Output ~ 0
-B
+B[0..3]
 Entry Wire Line
 	5150 4350 5250 4450
 Entry Wire Line
@@ -477,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4650 5150 4650
 Text HLabel 5750 4750 2    50   Output ~ 0
-OUT
+OUT[0..3]
 Entry Wire Line
 	5150 5800 5250 5900
 Entry Wire Line
@@ -497,7 +497,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6100 5150 6100
 Text HLabel 5750 6200 2    50   Output ~ 0
-PC
+PC[0..3]
 Wire Wire Line
 	3750 3900 4450 3900
 Wire Wire Line
@@ -553,7 +553,7 @@ In0
 Wire Bus Line
 	3050 3800 1100 3800
 Text HLabel 1100 3800 0    50   Input ~ 0
-Reg_sel
+Sel[0..3]
 Text Label 1650 3800 2    50   ~ 0
 Reg_sel[0..3]
 Wire Bus Line
@@ -565,7 +565,7 @@ Wire Bus Line
 Text Label 1200 3100 0    50   ~ 0
 In[0..3]
 Text HLabel 1100 3100 0    50   Input ~ 0
-In
+In[0..3]
 Wire Wire Line
 	3250 2900 3850 2900
 Wire Wire Line

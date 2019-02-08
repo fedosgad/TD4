@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 9
 Title "TD4 core module"
 Date ""
 Rev "v1.0"
@@ -360,16 +360,6 @@ Entry Wire Line
 	6400 5600 6500 5700
 Wire Bus Line
 	6500 1300 7300 1300
-Wire Bus Line
-	4000 1900 4000 6300
-Wire Bus Line
-	4150 1700 4150 5700
-Wire Bus Line
-	4300 1500 4300 5600
-Wire Bus Line
-	4450 1300 4450 5500
-Wire Bus Line
-	6500 1300 6500 5700
 Text Label 6350 1850 2    50   ~ 0
 Q0
 Text Label 6350 2550 2    50   ~ 0
@@ -385,17 +375,27 @@ B[0..3]
 Text Label 3500 1700 0    50   ~ 0
 IN[0..3]
 Text Label 3500 1900 0    50   ~ 0
-Sel[0..3]
+Sel[0..1]
 Text Label 6950 1300 0    50   ~ 0
 Q[0..3]
 Text HLabel 3400 1300 0    50   Input ~ 0
-A
+A[0..3]
 Text HLabel 3400 1500 0    50   Input ~ 0
-B
+B[0..3]
 Text HLabel 3400 1700 0    50   Input ~ 0
-IN
+IN[0..3]
 Text HLabel 3400 1900 0    50   Input ~ 0
-Sel
+Sel[0..1]
 Text HLabel 7300 1300 2    50   Output ~ 0
-Q
+Q[0..3]
+Wire Bus Line
+	4000 1900 4000 6300
+Wire Bus Line
+	4150 1700 4150 5700
+Wire Bus Line
+	4300 1500 4300 5600
+Wire Bus Line
+	4450 1300 4450 5500
+Wire Bus Line
+	6500 1300 6500 5700
 $EndSCHEMATC

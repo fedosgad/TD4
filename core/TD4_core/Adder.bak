@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 9
 Title "TD4 core module"
 Date ""
 Rev "v1.0"
@@ -873,9 +873,9 @@ B[0..3]
 Text Label 9750 3200 0    50   ~ 0
 Q[0..3]
 Text HLabel 1000 2500 0    50   Input ~ 0
-A
+A[0..3]
 Text HLabel 1000 2900 0    50   Input ~ 0
-B
+B[0..3]
 Text HLabel 10100 3200 2    50   Output ~ 0
-Q
+Q[0..3]
 $EndSCHEMATC
