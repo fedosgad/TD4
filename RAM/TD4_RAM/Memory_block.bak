@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 46
+Sheet 44 47
 Title "TD4 RAM module"
 Date ""
 Rev "v1.0"
@@ -283,13 +283,13 @@ Text Label 4200 6800 0    50   ~ 0
 D3
 Wire Bus Line
 	4050 7300 2450 7300
-Text Label 2100 4150 0    50   ~ 0
+Text Label 1600 4150 0    50   ~ 0
 RW
-Text Label 2100 4250 0    50   ~ 0
+Text Label 1600 4250 0    50   ~ 0
 CS
-Text HLabel 2000 4150 0    50   Input ~ 0
+Text HLabel 1500 4150 0    50   Input ~ 0
 RW
-Text HLabel 2000 4250 0    50   Input ~ 0
+Text HLabel 1500 4250 0    50   Input ~ 0
 ~CS
 Wire Wire Line
 	5350 1650 5600 1650
@@ -467,10 +467,10 @@ Connection ~ 7550 5100
 Wire Wire Line
 	7550 5100 8050 5100
 $Comp
-L power:VCC #PWR0116
+L power:VCC #PWR0156
 U 1 1 5C631C3D
 P 8450 4850
-F 0 "#PWR0116" H 8450 4700 50  0001 C CNN
+F 0 "#PWR0156" H 8450 4700 50  0001 C CNN
 F 1 "VCC" H 8467 5023 50  0000 C CNN
 F 2 "" H 8450 4850 50  0001 C CNN
 F 3 "" H 8450 4850 50  0001 C CNN
@@ -483,10 +483,10 @@ Connection ~ 8450 5100
 Wire Wire Line
 	8450 5100 8750 5100
 $Comp
-L power:GND #PWR0117
+L power:GND #PWR0157
 U 1 1 5C635BF7
 P 8450 6300
-F 0 "#PWR0117" H 8450 6050 50  0001 C CNN
+F 0 "#PWR0157" H 8450 6050 50  0001 C CNN
 F 1 "GND" H 8455 6127 50  0000 C CNN
 F 2 "" H 8450 6300 50  0001 C CNN
 F 3 "" H 8450 6300 50  0001 C CNN
@@ -531,9 +531,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 6800 4350 6800
 Wire Wire Line
-	2000 4150 2100 4150
+	1500 4150 1600 4150
 Wire Wire Line
-	2000 4250 2100 4250
+	1500 4250 1600 4250
 Wire Bus Line
 	2450 3600 2450 7300
 Wire Bus Line
@@ -547,23 +547,23 @@ Wire Bus Line
 Wire Bus Line
 	7100 1200 7100 3300
 Text HLabel 1500 3100 0    50   Input ~ 0
-Data_in
+Data_in[0..3]
 Text HLabel 1500 3600 0    50   Input ~ 0
-Adr
+Adr[0..7]
 Text Label 1550 3100 0    50   ~ 0
 D[0..3]
 Text Label 1550 3600 0    50   ~ 0
-A[0..3]
+A[0..7]
 Wire Bus Line
 	7100 3300 7700 3300
+Text HLabel 7700 3300 2    50   Output ~ 0
+Data_out[0..3]
+Text Label 7350 3300 0    50   ~ 0
+Q[0..3]
 Wire Bus Line
 	5700 1200 5700 6550
 Wire Bus Line
 	3900 1900 3900 7150
 Wire Bus Line
 	4050 1050 4050 7300
-Text HLabel 7700 3300 2    50   Output ~ 0
-Data_out
-Text Label 7350 3300 0    50   ~ 0
-Q[0..3]
 $EndSCHEMATC
