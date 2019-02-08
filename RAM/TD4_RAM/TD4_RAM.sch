@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 20
-Title ""
+Title "TD4 RAM module"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -353,20 +353,6 @@ Wire Wire Line
 	7800 3000 7800 2700
 Wire Wire Line
 	7800 2700 7900 2700
-Wire Bus Line
-	5350 1900 5350 2400
-Wire Bus Line
-	4950 1700 4950 2400
-Wire Bus Line
-	2750 4350 2750 5450
-Wire Bus Line
-	4500 4350 4500 6000
-Wire Bus Line
-	6400 3950 6400 6000
-Wire Bus Line
-	2600 2400 2600 4850
-Wire Bus Line
-	4500 2400 4500 4200
 $Comp
 L power:GND #PWR?
 U 1 1 5CF43A7C
@@ -389,4 +375,18 @@ F 3 "" H 8200 2550 50  0001 C CNN
 	1    8200 2550
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	5350 1900 5350 2400
+Wire Bus Line
+	4950 1700 4950 2400
+Wire Bus Line
+	2750 4350 2750 5450
+Wire Bus Line
+	4500 4350 4500 6000
+Wire Bus Line
+	6400 3950 6400 6000
+Wire Bus Line
+	2600 2400 2600 4850
+Wire Bus Line
+	4500 2400 4500 4200
 $EndSCHEMATC

@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 19 20
-Title ""
+Title "TD4 RAM module"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1882,6 +1882,8 @@ Wire Wire Line
 	9350 1950 9000 1950
 Wire Wire Line
 	8200 3150 8400 3150
+Text HLabel 8400 3150 2    50   Output ~ 0
+OE
 Wire Bus Line
 	6350 800  6350 5300
 Wire Bus Line
@@ -1900,6 +1902,4 @@ Wire Bus Line
 	2050 1500 2050 5200
 Wire Bus Line
 	6550 800  6550 4200
-Text HLabel 8400 3150 2    50   Output ~ 0
-OE
 $EndSCHEMATC

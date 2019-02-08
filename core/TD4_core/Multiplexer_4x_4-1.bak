@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:TD4_core-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
+Title "TD4 core module"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -270,11 +271,11 @@ Wire Wire Line
 Wire Wire Line
 	4550 3350 5150 3350
 Text Label 4550 1850 0    50   ~ 0
-In_A_0
+A0
 Text Label 4550 1950 0    50   ~ 0
-In_B_0
+B0
 Text Label 4550 2050 0    50   ~ 0
-In_IN_0
+IN0
 Text Label 4550 2550 0    50   ~ 0
 In_A_1
 Text Label 4550 2650 0    50   ~ 0
@@ -282,9 +283,9 @@ In_B_1
 Text Label 4550 2750 0    50   ~ 0
 In_IN_1
 Text Label 4550 3250 0    50   ~ 0
-Sel_0
+Sel0
 Text Label 4550 3350 0    50   ~ 0
-Sel_1
+Sel1
 Entry Wire Line
 	4450 4800 4550 4900
 Entry Wire Line
@@ -471,10 +472,6 @@ Wire Wire Line
 	7500 3800 8000 3800
 Wire Wire Line
 	6150 5600 7500 5600
-Wire Bus Line
-	3200 3300 3200 6900
-Wire Bus Line
-	4450 1750 4450 6900
 Text HLabel 8000 3500 2    50   Input ~ 0
 Out_0
 Text HLabel 8000 3600 2    50   Input ~ 0
@@ -483,4 +480,8 @@ Text HLabel 8000 3700 2    50   Input ~ 0
 Out_2
 Text HLabel 8000 3800 2    50   Input ~ 0
 Out_3
+Wire Bus Line
+	3200 3300 3200 6900
+Wire Bus Line
+	4450 1750 4450 6900
 $EndSCHEMATC

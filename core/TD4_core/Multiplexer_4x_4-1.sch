@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:TD4_core-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
+Title "TD4 core module"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -270,21 +271,15 @@ Wire Wire Line
 Wire Wire Line
 	4550 3350 5150 3350
 Text Label 4550 1850 0    50   ~ 0
-In_A_0
+A0
 Text Label 4550 1950 0    50   ~ 0
-In_B_0
+B0
 Text Label 4550 2050 0    50   ~ 0
-In_IN_0
-Text Label 4550 2550 0    50   ~ 0
-In_A_1
-Text Label 4550 2650 0    50   ~ 0
-In_B_1
-Text Label 4550 2750 0    50   ~ 0
-In_IN_1
+IN0
 Text Label 4550 3250 0    50   ~ 0
-Sel_0
+Sel0
 Text Label 4550 3350 0    50   ~ 0
-Sel_1
+Sel1
 Entry Wire Line
 	4450 4800 4550 4900
 Entry Wire Line
@@ -317,170 +312,26 @@ Wire Wire Line
 	4550 6300 5150 6300
 Wire Wire Line
 	4550 6400 5150 6400
+Text Label 4550 2550 0    50   ~ 0
+A1
+Text Label 4550 2650 0    50   ~ 0
+B1
+Text Label 4550 2750 0    50   ~ 0
+IN1
 Text Label 4550 4900 0    50   ~ 0
-In_A_2
+A2
 Text Label 4550 5000 0    50   ~ 0
-In_B_2
+B2
 Text Label 4550 5100 0    50   ~ 0
-In_IN_2
+IN2
 Text Label 4550 5600 0    50   ~ 0
-In_A_3
+A3
 Text Label 4550 5700 0    50   ~ 0
-In_B_3
+B3
 Text Label 4550 5800 0    50   ~ 0
-In_IN_3
+IN3
 Text Label 4550 6300 0    50   ~ 0
-Sel_0
+Sel0
 Text Label 4550 6400 0    50   ~ 0
-Sel_1
-Wire Bus Line
-	4450 6900 3200 6900
-Entry Wire Line
-	3100 3200 3200 3300
-Entry Wire Line
-	3100 3300 3200 3400
-Entry Wire Line
-	3100 3400 3200 3500
-Entry Wire Line
-	3100 3500 3200 3600
-Entry Wire Line
-	3100 3900 3200 4000
-Entry Wire Line
-	3100 4000 3200 4100
-Entry Wire Line
-	3100 4100 3200 4200
-Entry Wire Line
-	3100 4200 3200 4300
-Entry Wire Line
-	3100 4600 3200 4700
-Entry Wire Line
-	3100 4700 3200 4800
-Entry Wire Line
-	3100 4800 3200 4900
-Entry Wire Line
-	3100 4900 3200 5000
-Entry Wire Line
-	3100 5300 3200 5400
-Entry Wire Line
-	3100 5400 3200 5500
-Wire Wire Line
-	2700 3200 3100 3200
-Wire Wire Line
-	2700 3300 3100 3300
-Wire Wire Line
-	2700 3400 3100 3400
-Wire Wire Line
-	2700 3500 3100 3500
-Text Label 2850 3200 0    50   ~ 0
-In_A_0
-Text Label 2850 3300 0    50   ~ 0
-In_A_1
-Text Label 2850 3400 0    50   ~ 0
-In_A_2
-Text Label 2850 3500 0    50   ~ 0
-In_A_3
-Wire Wire Line
-	2700 3900 3100 3900
-Wire Wire Line
-	2700 4000 3100 4000
-Wire Wire Line
-	2700 4100 3100 4100
-Wire Wire Line
-	2700 4200 3100 4200
-Text Label 2850 3900 0    50   ~ 0
-In_B_0
-Text Label 2850 4000 0    50   ~ 0
-In_B_1
-Text Label 2850 4100 0    50   ~ 0
-In_B_2
-Text Label 2850 4200 0    50   ~ 0
-In_B_3
-Wire Wire Line
-	2700 4600 3100 4600
-Wire Wire Line
-	2700 4700 3100 4700
-Wire Wire Line
-	2700 4800 3100 4800
-Wire Wire Line
-	2700 4900 3100 4900
-Text Label 2850 4600 0    50   ~ 0
-In_IN_0
-Text Label 2850 4700 0    50   ~ 0
-In_IN_1
-Text Label 2850 4800 0    50   ~ 0
-In_IN_2
-Text Label 2850 4900 0    50   ~ 0
-In_IN_3
-Wire Wire Line
-	2700 5300 3100 5300
-Wire Wire Line
-	2700 5400 3100 5400
-Text Label 2850 5300 0    50   ~ 0
-Sel_0
-Text Label 2850 5400 0    50   ~ 0
-Sel_1
-Text HLabel 2700 3200 0    50   Input ~ 0
-In_A_0
-Text HLabel 2700 3300 0    50   Input ~ 0
-In_A_1
-Text HLabel 2700 3400 0    50   Input ~ 0
-In_A_2
-Text HLabel 2700 3500 0    50   Input ~ 0
-In_A_3
-Text HLabel 2700 3900 0    50   Input ~ 0
-In_B_0
-Text HLabel 2700 4000 0    50   Input ~ 0
-In_B_1
-Text HLabel 2700 4100 0    50   Input ~ 0
-In_B_2
-Text HLabel 2700 4200 0    50   Input ~ 0
-In_B_3
-Text HLabel 2700 4600 0    50   Input ~ 0
-In_IN_0
-Text HLabel 2700 4700 0    50   Input ~ 0
-In_IN_1
-Text HLabel 2700 4800 0    50   Input ~ 0
-In_IN_2
-Text HLabel 2700 4900 0    50   Input ~ 0
-In_IN_3
-Text HLabel 2700 5300 0    50   Input ~ 0
-Sel_0
-Text HLabel 2700 5400 0    50   Input ~ 0
-Sel_1
-Wire Wire Line
-	6150 2550 7300 2550
-Wire Wire Line
-	7300 2550 7300 3600
-Wire Wire Line
-	7300 3600 8000 3600
-Wire Wire Line
-	6150 1850 7500 1850
-Wire Wire Line
-	7500 1850 7500 3500
-Wire Wire Line
-	7500 3500 8000 3500
-Wire Wire Line
-	6150 4900 7300 4900
-Wire Wire Line
-	7300 4900 7300 3700
-Wire Wire Line
-	7300 3700 8000 3700
-Wire Wire Line
-	7500 5600 7500 3800
-Wire Wire Line
-	7500 3800 8000 3800
-Wire Wire Line
-	6150 5600 7500 5600
-Wire Bus Line
-	3200 3300 3200 6900
-Wire Bus Line
-	4450 1750 4450 6900
-Text HLabel 8000 3500 2    50   Input ~ 0
-Out_0
-Text HLabel 8000 3600 2    50   Input ~ 0
-Out_1
-Text HLabel 8000 3700 2    50   Input ~ 0
-Out_2
-Text HLabel 8000 3800 2    50   Input ~ 0
-Out_3
+Sel1
 $EndSCHEMATC

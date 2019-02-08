@@ -1,12 +1,13 @@
 EESchema Schematic File Version 4
+LIBS:TD4_ROM-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "TD4 ROM module"
 Date ""
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -341,6 +342,10 @@ Entry Wire Line
 	4400 4300 4300 4400
 Wire Bus Line
 	4400 4900 6400 4900
+Text Notes 4200 2250 2    100  ~ 0
+Address bus
+Text Notes 4150 3550 2    100  ~ 0
+Data bus
 Wire Bus Line
 	4400 3600 4400 4900
 Wire Bus Line
@@ -349,8 +354,4 @@ Wire Bus Line
 	5200 2300 5200 3200
 Wire Bus Line
 	6400 2700 6400 4900
-Text Notes 4200 2250 2    100  ~ 0
-Address bus
-Text Notes 4150 3550 2    100  ~ 0
-Data bus
 $EndSCHEMATC
