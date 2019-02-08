@@ -166,8 +166,8 @@ Wire Wire Line
 	5750 3450 4950 3450
 Text HLabel 4950 2950 0    50   Input ~ 0
 C_in
-Text HLabel 6600 3150 2    50   Input ~ 0
-nC_out
+Text HLabel 6600 3150 2    50   Output ~ 0
+~C_out
 Text GLabel 4950 3450 0    50   Input ~ 0
 ~RESET
 Text GLabel 4950 3150 0    50   Input ~ 0

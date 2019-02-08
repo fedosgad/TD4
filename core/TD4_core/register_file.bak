@@ -655,6 +655,8 @@ Text Label 5150 6000 2    50   ~ 0
 PC2
 Text Label 5150 6100 2    50   ~ 0
 PC3
+Text Label 5700 6200 2    50   ~ 0
+PC[0..3]
 Wire Bus Line
 	3050 3800 3050 6200
 Wire Bus Line
@@ -669,6 +671,4 @@ Wire Bus Line
 	5250 5900 5250 6200
 Wire Bus Line
 	3150 1250 3150 6000
-Text Label 5700 6200 2    50   ~ 0
-PC[0..3]
 $EndSCHEMATC
