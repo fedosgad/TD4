@@ -14,30 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	800  1050 1000 1050
 Text HLabel 800  1050 0    50   Input ~ 0
 Adr_H
-Entry Wire Line
-	1000 1050 1100 1150
-Entry Wire Line
-	1000 1150 1100 1250
-Entry Wire Line
-	1000 1250 1100 1350
-Entry Wire Line
-	1000 1350 1100 1450
-Wire Wire Line
-	1100 1250 1300 1250
-Wire Wire Line
-	1100 1350 1300 1350
-Text Label 1100 1150 0    50   ~ 0
-5
-Text Label 1100 1250 0    50   ~ 0
-6
-Text Label 1100 1350 0    50   ~ 0
-7
-Text Label 1100 1450 0    50   ~ 0
-8
 $Sheet
 S 1600 1800 550  500 
 U 5C5DC213
@@ -47,30 +25,8 @@ F2 "A" I L 1600 1950 50
 F3 "B" I L 1600 2150 50 
 F4 "Q" O R 2150 2050 50 
 $EndSheet
-Wire Wire Line
-	1100 1450 1300 1450
-Wire Wire Line
-	1100 1150 1300 1150
-Entry Wire Line
-	1400 1050 1300 1150
-Entry Wire Line
-	1400 1150 1300 1250
-Entry Wire Line
-	1400 1250 1300 1350
-Entry Wire Line
-	1400 1350 1300 1450
-Text Label 1250 1150 0    50   ~ 0
-0
-Text Label 1250 1250 0    50   ~ 0
-1
-Text Label 1250 1350 0    50   ~ 0
-2
-Text Label 1250 1450 0    50   ~ 0
-3
 Wire Bus Line
 	1500 1050 1500 1950
-Wire Bus Line
-	1400 1050 1500 1050
 Wire Bus Line
 	1500 1950 1600 1950
 $Sheet
@@ -2244,6 +2200,9 @@ Text HLabel 10900 5150 2    50   Output ~ 0
 Comp
 Wire Bus Line
 	10900 5150 10700 5150
+Connection ~ 10700 5150
+Wire Bus Line
+	800  1050 1500 1050
 Wire Bus Line
 	4750 4550 4750 4700
 Wire Bus Line
@@ -2309,10 +2268,6 @@ Wire Bus Line
 Wire Bus Line
 	9750 1900 9750 2050
 Wire Bus Line
-	1000 1050 1000 1350
-Wire Bus Line
-	1400 1050 1400 1350
-Wire Bus Line
 	6400 1700 6400 2150
 Wire Bus Line
 	6400 2500 6400 2950
@@ -2352,5 +2307,4 @@ Wire Bus Line
 	8900 4200 8900 4650
 Wire Bus Line
 	10700 2250 10700 5150
-Connection ~ 10700 5150
 $EndSCHEMATC

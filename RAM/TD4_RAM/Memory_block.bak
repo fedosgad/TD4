@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 20
+Sheet 20 20
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Custom_Symbols:К561РУ2 U1
+L Custom_Symbols:К561РУ2 U?
 U 2 1 5C5CC81A
 P 7350 5600
-F 0 "U1" H 7200 6350 100 0000 L CNN
+F 0 "U?" H 7200 6350 100 0000 L CNN
 F 1 "К561РУ2" H 7050 6200 100 0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 7350 4900 100 0001 C CNN
 F 3 "" H 7350 6100 100 0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 7350 6100 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U1
+L Custom_Symbols:К561РУ2 U?
 U 1 1 5C5CCA5F
 P 4850 1700
-F 0 "U1" H 4850 2587 100 0000 C CNN
+F 0 "U?" H 4850 2587 100 0000 C CNN
 F 1 "К561РУ2" H 4850 2421 100 0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4850 1000 100 0001 C CNN
 F 3 "" H 4850 2200 100 0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 4850 2200 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U2
+L Custom_Symbols:К561РУ2 U?
 U 1 1 5C5CCAE5
 P 4850 3300
-F 0 "U2" H 4850 4187 100 0000 C CNN
+F 0 "U?" H 4850 4187 100 0000 C CNN
 F 1 "К561РУ2" H 4850 4021 100 0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4850 2600 100 0001 C CNN
 F 3 "" H 4850 3800 100 0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 4850 3800 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U3
+L Custom_Symbols:К561РУ2 U?
 U 1 1 5C5CCB4B
 P 4850 4900
-F 0 "U3" H 4850 5787 100 0000 C CNN
+F 0 "U?" H 4850 5787 100 0000 C CNN
 F 1 "К561РУ2" H 4850 5621 100 0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4850 4200 100 0001 C CNN
 F 3 "" H 4850 5400 100 0001 C CNN
@@ -59,10 +59,10 @@ F 3 "" H 4850 5400 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U4
+L Custom_Symbols:К561РУ2 U?
 U 1 1 5C5CCBCB
 P 4850 6500
-F 0 "U4" H 4850 7387 100 0000 C CNN
+F 0 "U?" H 4850 7387 100 0000 C CNN
 F 1 "К561РУ2" H 4850 7221 100 0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4850 5800 100 0001 C CNN
 F 3 "" H 4850 7000 100 0001 C CNN
@@ -448,55 +448,31 @@ CS
 Text HLabel 2000 4150 0    50   Input ~ 0
 RW
 Text HLabel 2000 4250 0    50   Input ~ 0
-CS
+nCS
 Wire Wire Line
 	5350 1650 5600 1650
-Wire Wire Line
-	5350 1750 5600 1750
 Entry Wire Line
 	5600 1650 5700 1750
-Entry Wire Line
-	5600 1750 5700 1850
 Text Label 5400 1650 0    50   ~ 0
 Q0
-Text Label 5400 1750 0    50   ~ 0
-nQ0
 Wire Wire Line
 	5350 3250 5600 3250
-Wire Wire Line
-	5350 3350 5600 3350
 Entry Wire Line
 	5600 3250 5700 3350
-Entry Wire Line
-	5600 3350 5700 3450
 Text Label 5400 3250 0    50   ~ 0
 Q1
-Text Label 5400 3350 0    50   ~ 0
-nQ1
 Wire Wire Line
 	5350 4850 5600 4850
-Wire Wire Line
-	5350 4950 5600 4950
 Entry Wire Line
 	5600 4850 5700 4950
-Entry Wire Line
-	5600 4950 5700 5050
 Text Label 5400 4850 0    50   ~ 0
 Q2
-Text Label 5400 4950 0    50   ~ 0
-nQ2
 Wire Wire Line
 	5350 6450 5600 6450
-Wire Wire Line
-	5350 6550 5600 6550
 Entry Wire Line
 	5600 6450 5700 6550
-Entry Wire Line
-	5600 6550 5700 6650
 Text Label 5400 6450 0    50   ~ 0
 Q3
-Text Label 5400 6550 0    50   ~ 0
-nQ3
 Wire Bus Line
 	5700 1200 7100 1200
 Entry Wire Line
@@ -507,18 +483,6 @@ Entry Wire Line
 	7100 3200 7200 3300
 Entry Wire Line
 	7100 3300 7200 3400
-Entry Wire Line
-	7100 3550 7200 3650
-Entry Wire Line
-	7100 3650 7200 3750
-Entry Wire Line
-	7100 3750 7200 3850
-Entry Wire Line
-	7100 3850 7200 3950
-Entry Wire Line
-	7100 3850 7200 3950
-Entry Wire Line
-	7100 3550 7200 3650
 Wire Wire Line
 	7200 3100 7600 3100
 Wire Wire Line
@@ -527,14 +491,6 @@ Wire Wire Line
 	7200 3300 7600 3300
 Wire Wire Line
 	7200 3400 7600 3400
-Wire Wire Line
-	7200 3650 7600 3650
-Wire Wire Line
-	7200 3750 7600 3750
-Wire Wire Line
-	7200 3850 7600 3850
-Wire Wire Line
-	7200 3950 7600 3950
 Text Label 7300 3100 0    50   ~ 0
 Q0
 Text Label 7300 3200 0    50   ~ 0
@@ -543,14 +499,6 @@ Text Label 7300 3300 0    50   ~ 0
 Q2
 Text Label 7300 3400 0    50   ~ 0
 Q3
-Text Label 7300 3650 0    50   ~ 0
-nQ0
-Text Label 7300 3750 0    50   ~ 0
-nQ1
-Text Label 7300 3850 0    50   ~ 0
-nQ2
-Text Label 7300 3950 0    50   ~ 0
-nQ3
 Text HLabel 7600 3100 2    50   Output ~ 0
 Q0
 Text HLabel 7600 3200 2    50   Output ~ 0
@@ -559,19 +507,11 @@ Text HLabel 7600 3300 2    50   Output ~ 0
 Q2
 Text HLabel 7600 3400 2    50   Output ~ 0
 Q3
-Text HLabel 7600 3650 2    50   Output ~ 0
-nQ0
-Text HLabel 7600 3750 2    50   Output ~ 0
-nQ1
-Text HLabel 7600 3850 2    50   Output ~ 0
-nQ2
-Text HLabel 7600 3950 2    50   Output ~ 0
-nQ3
 $Comp
-L Device:C C1
+L Device:C C?
 U 1 1 5C5F9413
 P 7550 5600
-F 0 "C1" H 7665 5646 50  0000 L CNN
+F 0 "C?" H 7665 5646 50  0000 L CNN
 F 1 "100n" H 7665 5555 50  0000 L CNN
 F 2 "" H 7588 5450 50  0001 C CNN
 F 3 "~" H 7550 5600 50  0001 C CNN
@@ -579,10 +519,10 @@ F 3 "~" H 7550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U2
+L Custom_Symbols:К561РУ2 U?
 U 2 1 5C5F94AB
 P 8050 5600
-F 0 "U2" H 7900 6350 100 0000 L CNN
+F 0 "U?" H 7900 6350 100 0000 L CNN
 F 1 "К561РУ2" H 7750 6200 100 0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 8050 4900 100 0001 C CNN
 F 3 "" H 8050 6100 100 0001 C CNN
@@ -590,10 +530,10 @@ F 3 "" H 8050 6100 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C?
 U 1 1 5C5F94B2
 P 8250 5600
-F 0 "C2" H 8365 5646 50  0000 L CNN
+F 0 "C?" H 8365 5646 50  0000 L CNN
 F 1 "100n" H 8365 5555 50  0000 L CNN
 F 2 "" H 8288 5450 50  0001 C CNN
 F 3 "~" H 8250 5600 50  0001 C CNN
@@ -601,10 +541,10 @@ F 3 "~" H 8250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U3
+L Custom_Symbols:К561РУ2 U?
 U 2 1 5C5FC441
 P 8750 5600
-F 0 "U3" H 8600 6350 100 0000 L CNN
+F 0 "U?" H 8600 6350 100 0000 L CNN
 F 1 "К561РУ2" H 8450 6200 100 0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 8750 4900 100 0001 C CNN
 F 3 "" H 8750 6100 100 0001 C CNN
@@ -612,10 +552,10 @@ F 3 "" H 8750 6100 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Device:C C?
 U 1 1 5C5FC448
 P 8950 5600
-F 0 "C3" H 9065 5646 50  0000 L CNN
+F 0 "C?" H 9065 5646 50  0000 L CNN
 F 1 "100n" H 9065 5555 50  0000 L CNN
 F 2 "" H 8988 5450 50  0001 C CNN
 F 3 "~" H 8950 5600 50  0001 C CNN
@@ -623,10 +563,10 @@ F 3 "~" H 8950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom_Symbols:К561РУ2 U4
+L Custom_Symbols:К561РУ2 U?
 U 2 1 5C5FF407
 P 9450 5600
-F 0 "U4" H 9300 6350 100 0000 L CNN
+F 0 "U?" H 9300 6350 100 0000 L CNN
 F 1 "К561РУ2" H 9150 6200 100 0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 9450 4900 100 0001 C CNN
 F 3 "" H 9450 6100 100 0001 C CNN
@@ -634,10 +574,10 @@ F 3 "" H 9450 6100 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C?
 U 1 1 5C5FF40E
 P 9650 5600
-F 0 "C4" H 9765 5646 50  0000 L CNN
+F 0 "C?" H 9765 5646 50  0000 L CNN
 F 1 "100n" H 9765 5555 50  0000 L CNN
 F 2 "" H 9688 5450 50  0001 C CNN
 F 3 "~" H 9650 5600 50  0001 C CNN
@@ -717,10 +657,10 @@ Connection ~ 7550 5100
 Wire Wire Line
 	7550 5100 8050 5100
 $Comp
-L power:VCC #PWR01
+L power:VCC #PWR?
 U 1 1 5C631C3D
 P 8450 4850
-F 0 "#PWR01" H 8450 4700 50  0001 C CNN
+F 0 "#PWR?" H 8450 4700 50  0001 C CNN
 F 1 "VCC" H 8467 5023 50  0000 C CNN
 F 2 "" H 8450 4850 50  0001 C CNN
 F 3 "" H 8450 4850 50  0001 C CNN
@@ -733,10 +673,10 @@ Connection ~ 8450 5100
 Wire Wire Line
 	8450 5100 8750 5100
 $Comp
-L power:GND #PWR02
+L power:GND #PWR?
 U 1 1 5C635BF7
 P 8450 6300
-F 0 "#PWR02" H 8450 6050 50  0001 C CNN
+F 0 "#PWR?" H 8450 6050 50  0001 C CNN
 F 1 "GND" H 8455 6127 50  0000 C CNN
 F 2 "" H 8450 6300 50  0001 C CNN
 F 3 "" H 8450 6300 50  0001 C CNN
@@ -758,10 +698,14 @@ Text Notes 7500 2950 0    100  ~ 0
 Data outputs\n
 Text Notes 8100 4550 0    100  ~ 0
 Decoupling
+NoConn ~ 5350 1750
+NoConn ~ 5350 3350
+NoConn ~ 5350 4950
+NoConn ~ 5350 6550
 Wire Bus Line
-	7100 1200 7100 3850
+	7100 1200 7100 3300
 Wire Bus Line
-	5700 1200 5700 6650
+	5700 1200 5700 6550
 Wire Bus Line
 	2450 2600 2450 7300
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 20
+Sheet 20 20
 Title ""
 Date ""
 Rev ""
@@ -448,55 +448,31 @@ CS
 Text HLabel 2000 4150 0    50   Input ~ 0
 RW
 Text HLabel 2000 4250 0    50   Input ~ 0
-CS
+nCS
 Wire Wire Line
 	5350 1650 5600 1650
-Wire Wire Line
-	5350 1750 5600 1750
 Entry Wire Line
 	5600 1650 5700 1750
-Entry Wire Line
-	5600 1750 5700 1850
 Text Label 5400 1650 0    50   ~ 0
 Q0
-Text Label 5400 1750 0    50   ~ 0
-nQ0
 Wire Wire Line
 	5350 3250 5600 3250
-Wire Wire Line
-	5350 3350 5600 3350
 Entry Wire Line
 	5600 3250 5700 3350
-Entry Wire Line
-	5600 3350 5700 3450
 Text Label 5400 3250 0    50   ~ 0
 Q1
-Text Label 5400 3350 0    50   ~ 0
-nQ1
 Wire Wire Line
 	5350 4850 5600 4850
-Wire Wire Line
-	5350 4950 5600 4950
 Entry Wire Line
 	5600 4850 5700 4950
-Entry Wire Line
-	5600 4950 5700 5050
 Text Label 5400 4850 0    50   ~ 0
 Q2
-Text Label 5400 4950 0    50   ~ 0
-nQ2
 Wire Wire Line
 	5350 6450 5600 6450
-Wire Wire Line
-	5350 6550 5600 6550
 Entry Wire Line
 	5600 6450 5700 6550
-Entry Wire Line
-	5600 6550 5700 6650
 Text Label 5400 6450 0    50   ~ 0
 Q3
-Text Label 5400 6550 0    50   ~ 0
-nQ3
 Wire Bus Line
 	5700 1200 7100 1200
 Entry Wire Line
@@ -507,18 +483,6 @@ Entry Wire Line
 	7100 3200 7200 3300
 Entry Wire Line
 	7100 3300 7200 3400
-Entry Wire Line
-	7100 3550 7200 3650
-Entry Wire Line
-	7100 3650 7200 3750
-Entry Wire Line
-	7100 3750 7200 3850
-Entry Wire Line
-	7100 3850 7200 3950
-Entry Wire Line
-	7100 3850 7200 3950
-Entry Wire Line
-	7100 3550 7200 3650
 Wire Wire Line
 	7200 3100 7600 3100
 Wire Wire Line
@@ -527,14 +491,6 @@ Wire Wire Line
 	7200 3300 7600 3300
 Wire Wire Line
 	7200 3400 7600 3400
-Wire Wire Line
-	7200 3650 7600 3650
-Wire Wire Line
-	7200 3750 7600 3750
-Wire Wire Line
-	7200 3850 7600 3850
-Wire Wire Line
-	7200 3950 7600 3950
 Text Label 7300 3100 0    50   ~ 0
 Q0
 Text Label 7300 3200 0    50   ~ 0
@@ -543,14 +499,6 @@ Text Label 7300 3300 0    50   ~ 0
 Q2
 Text Label 7300 3400 0    50   ~ 0
 Q3
-Text Label 7300 3650 0    50   ~ 0
-nQ0
-Text Label 7300 3750 0    50   ~ 0
-nQ1
-Text Label 7300 3850 0    50   ~ 0
-nQ2
-Text Label 7300 3950 0    50   ~ 0
-nQ3
 Text HLabel 7600 3100 2    50   Output ~ 0
 Q0
 Text HLabel 7600 3200 2    50   Output ~ 0
@@ -559,14 +507,6 @@ Text HLabel 7600 3300 2    50   Output ~ 0
 Q2
 Text HLabel 7600 3400 2    50   Output ~ 0
 Q3
-Text HLabel 7600 3650 2    50   Output ~ 0
-nQ0
-Text HLabel 7600 3750 2    50   Output ~ 0
-nQ1
-Text HLabel 7600 3850 2    50   Output ~ 0
-nQ2
-Text HLabel 7600 3950 2    50   Output ~ 0
-nQ3
 $Comp
 L Device:C C?
 U 1 1 5C5F9413
@@ -758,10 +698,14 @@ Text Notes 7500 2950 0    100  ~ 0
 Data outputs\n
 Text Notes 8100 4550 0    100  ~ 0
 Decoupling
+NoConn ~ 5350 1750
+NoConn ~ 5350 3350
+NoConn ~ 5350 4950
+NoConn ~ 5350 6550
 Wire Bus Line
-	7100 1200 7100 3850
+	7100 1200 7100 3300
 Wire Bus Line
-	5700 1200 5700 6650
+	5700 1200 5700 6550
 Wire Bus Line
 	2450 2600 2450 7300
 Wire Bus Line

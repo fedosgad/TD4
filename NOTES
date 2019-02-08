@@ -4,3 +4,9 @@ PCBs to make:
  - ROM - all 256 bytes on a single PCB
  - RAM - 16 bytes per PCB
  - backplane - 20 slots for all other PCBs + power circuits
+
+Key ICs:
+ - latches - 74HC175 - quad D flip-flop
+ - RAM - К561РУ2 - 256x1 CMOS SRAM
+ - register selector - 74HC155
+ - ROM - 
