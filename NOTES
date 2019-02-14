@@ -1,9 +1,3 @@
-QUESTION: HOW CORE DEBUGGING CAN BE IMPLEMENTED?
-Example: A and B registers cannnot be accessed through backplane buses ATM.
-Possible solutions:
-    - make backplane wider
-    - add register headers to core PCB
-
 PCBs to make:
  - core - TD4 itself
  - clock/reset - clock generator (fixed/variable) + reset circuits
@@ -31,7 +25,12 @@ Backplane carries:
 
     Total: 48 wires needed.
 
-Will use 3x16 (48 pin) or 2x32 (64 pin) DIN connectors.
+Will use 2x32 (64 pin) DIN connectors.
+
+Debug headers:
+	Core PCB will have additional headers for monitoring registers (A & B)
+	and carry flag. They are not worth it to break them out to back plane,
+	thus new headers (detachable debug).
 
 Key ICs:
  - latches - 74HC175 - quad D flip-flop

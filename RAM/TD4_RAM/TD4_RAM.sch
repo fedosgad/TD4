@@ -121,7 +121,7 @@ $Sheet
 S 4050 1600 850  200 
 U 5CBF05D8
 F0 "sheet5CBF05D4" 50
-F1 "Bank_witches.sch" 50
+F1 "Bank_switches.sch" 50
 F2 "Out[0..15]" O R 4900 1700 50 
 $EndSheet
 Wire Wire Line
@@ -306,6 +306,7 @@ NoConn ~ 950  4700
 NoConn ~ 950  4800
 NoConn ~ 950  4900
 NoConn ~ 950  3150
+NoConn ~ 950  3250
 Wire Bus Line
 	1250 3650 4400 3650
 Wire Bus Line
@@ -316,5 +317,4 @@ Wire Bus Line
 	3300 2050 3300 2500
 Wire Bus Line
 	1250 3650 1250 4400
-NoConn ~ 950  3250
 $EndSCHEMATC
