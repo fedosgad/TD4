@@ -423,8 +423,6 @@ F 3 "" H 4750 3350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 NoConn ~ 5250 4150
-Wire Wire Line
-	5250 4250 5300 4250
 Wire Bus Line
 	4350 2750 4350 3150
 Wire Bus Line
@@ -437,6 +435,5 @@ Wire Bus Line
 	4350 1850 4350 2650
 Wire Bus Line
 	5650 1850 5650 2650
-Text Label 5300 4250 0    50   ~ 0
-DEBUG_ON
+NoConn ~ 5250 4250
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 23
+Sheet 1 30
 Title "TD4 core module"
 Date ""
 Rev "v1.0"
@@ -391,7 +391,7 @@ F0 "4-bit 3-state buffer" 50
 F1 "4bit_3state_buf.sch" 50
 F2 "Q[0..3]" O R 10050 1600 50 
 F3 "A[0..3]" I L 9300 1600 50 
-F4 "EN" I L 9300 1700 50 
+F4 "~EN" I L 9300 1700 50 
 $EndSheet
 Wire Bus Line
 	10050 1600 10350 1600
@@ -518,13 +518,13 @@ Im[0..3]
 Text Label 5800 4700 0    50   ~ 0
 Im[0..3]
 Entry Wire Line
-	2200 3750 2300 3850
+	2250 3750 2350 3850
 Entry Wire Line
-	2200 3850 2300 3950
+	2250 3850 2350 3950
 Entry Wire Line
-	2200 3950 2300 4050
+	2250 3950 2350 4050
 Entry Wire Line
-	2200 4050 2300 4150
+	2250 4050 2350 4150
 Entry Wire Line
 	1150 3750 1050 3850
 Entry Wire Line
@@ -550,10 +550,10 @@ OUT2
 Text Label 1300 4050 2    50   ~ 0
 OUT3
 Wire Bus Line
-	2300 3750 2400 3750
+	2350 3750 2450 3750
 Wire Bus Line
 	1050 3750 950  3750
-Text Label 2400 3750 0    50   ~ 0
+Text Label 2450 3750 0    50   ~ 0
 IN[0..3]
 Text Label 950  3750 2    50   ~ 0
 OUT[0..3]
@@ -758,15 +758,15 @@ Wire Wire Line
 Wire Wire Line
 	1150 3850 1450 3850
 Wire Wire Line
-	1950 3750 2200 3750
+	1950 3750 2250 3750
 Wire Bus Line
 	3700 4150 3750 4150
 Wire Wire Line
-	1950 3850 2200 3850
+	1950 3850 2250 3850
 Wire Wire Line
-	1950 3950 2200 3950
+	1950 3950 2250 3950
 Wire Wire Line
-	1950 4050 2200 4050
+	1950 4050 2250 4050
 Connection ~ 3750 4150
 Wire Bus Line
 	1050 4550 1000 4550
@@ -843,7 +843,6 @@ F 3 "" H 1450 4350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 NoConn ~ 1950 5150
-NoConn ~ 1950 5250
 $Comp
 L Device:CP C6
 U 1 1 5C929735
@@ -966,6 +965,88 @@ $EndComp
 Connection ~ 8750 6300
 Wire Wire Line
 	8750 6300 8950 6300
+Wire Wire Line
+	1950 5250 2000 5250
+Text Label 2000 5250 0    50   ~ 0
+~DEBUG_ON~
+Wire Wire Line
+	10050 4300 10150 4300
+Text Label 10050 4300 2    50   ~ 0
+~DEBUG_ON~
+Wire Bus Line
+	9950 4200 10150 4200
+Text Notes 9650 3950 0    100  ~ 0
+Debug headers
+Text Label 9950 4200 2    50   ~ 0
+A[0..3]
+$Sheet
+S 10150 4100 550  300 
+U 5C72E552
+F0 "Sheet5C72E551" 50
+F1 "Debug_header.sch" 50
+F2 "In[0..3]" I L 10150 4200 50 
+F3 "~EN" I L 10150 4300 50 
+$EndSheet
+Wire Wire Line
+	10050 4800 10150 4800
+Text Label 10050 4800 2    50   ~ 0
+~DEBUG_ON~
+Wire Bus Line
+	9950 4700 10150 4700
+Text Label 9950 4700 2    50   ~ 0
+B[0..3]
+$Sheet
+S 10150 4600 550  300 
+U 5C74C5C4
+F0 "sheet5C74C5BC" 50
+F1 "Debug_header.sch" 50
+F2 "In[0..3]" I L 10150 4700 50 
+F3 "~EN" I L 10150 4800 50 
+$EndSheet
+$Sheet
+S 10150 5100 550  700 
+U 5C77FFF0
+F0 "Sheet5C77FFEF" 50
+F1 "Debug_header_pins.sch" 50
+F2 "~EN" I L 10150 5700 50 
+F3 "A0" I L 10150 5200 50 
+F4 "A1" I L 10150 5300 50 
+F5 "A2" I L 10150 5400 50 
+F6 "A3" I L 10150 5500 50 
+$EndSheet
+Wire Wire Line
+	10050 5700 10150 5700
+Text Label 10050 5700 2    50   ~ 0
+~DEBUG_ON~
+$Comp
+L power:GND #PWR?
+U 1 1 5C78D936
+P 10150 5500
+F 0 "#PWR?" H 10150 5250 50  0001 C CNN
+F 1 "GND" V 10155 5372 50  0000 R CNN
+F 2 "" H 10150 5500 50  0001 C CNN
+F 3 "" H 10150 5500 50  0001 C CNN
+	1    10150 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 5200 9850 5200
+Wire Wire Line
+	7900 1700 8000 1700
+Connection ~ 7900 1700
+Wire Wire Line
+	8900 2300 9000 2300
+Connection ~ 8900 2300
+Text Label 8000 1700 0    50   ~ 0
+C_a
+Text Label 9000 2300 0    50   ~ 0
+C_r
+Wire Wire Line
+	10150 5300 9850 5300
+Text Label 9850 5200 2    50   ~ 0
+C_a
+Text Label 9850 5300 2    50   ~ 0
+C_r
 Wire Bus Line
 	4450 2600 4450 2900
 Wire Bus Line
@@ -973,7 +1054,7 @@ Wire Bus Line
 Wire Bus Line
 	1050 3750 1050 4150
 Wire Bus Line
-	2300 3750 2300 4150
+	2350 3750 2350 4150
 Wire Bus Line
 	3750 2350 3750 2700
 Wire Bus Line
@@ -990,4 +1071,15 @@ Wire Bus Line
 	1050 2850 1050 3650
 Wire Bus Line
 	2350 2850 2350 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5C7B1C3E
+P 10150 5400
+F 0 "#PWR?" H 10150 5150 50  0001 C CNN
+F 1 "GND" V 10155 5272 50  0000 R CNN
+F 2 "" H 10150 5400 50  0001 C CNN
+F 3 "" H 10150 5400 50  0001 C CNN
+	1    10150 5400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

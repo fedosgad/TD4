@@ -17,20 +17,24 @@ Backplane carries:
     - Reset signal - 1 bit
     - IN bus - 4 bit
     - OUT bus - 4 bit
-    Subtotal: 40 bit.
+    - DEBUG_ON - 1 bit
+    Subtotal: 41 bit.
 
     Power:
     - +5V - 4 wires
     - GND - 4 wires
 
-    Total: 48 wires needed.
+    Total: 49 wires needed.
 
 Will use 2x32 (64 pin) DIN connectors.
 
 Debug headers:
 	Core PCB will have additional headers for monitoring registers (A & B)
-	and carry flag. They are not worth it to break them out to back plane,
-	thus new headers (detachable debug).
+	and carry flag (both from adder and from register). They are not worth
+	it to break them out to back plane, thus new headers (detachable debug).
+	Other PCBs may also require similar header.
+	DEBUG_ON pin on backplane enables the debug outputs
+
 
 Key ICs:
  - latches - 74HC175 - quad D flip-flop
