@@ -547,8 +547,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 4000 7100 4000
 Wire Wire Line
-	4050 3850 4750 3850
-Wire Wire Line
 	8800 4750 9050 4750
 Wire Wire Line
 	8050 3900 9050 3900
@@ -878,4 +876,6 @@ Text HLabel 1000 2900 0    50   Input ~ 0
 B[0..3]
 Text HLabel 10100 3200 2    50   Output ~ 0
 Q[0..3]
+Wire Wire Line
+	4050 3850 4800 3850
 $EndSCHEMATC
