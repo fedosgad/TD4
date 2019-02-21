@@ -41,3 +41,8 @@ Key ICs:
  - RAM - К561РУ2 - 256x1 CMOS SRAM
  - register selector - 74HC155
  - (EEP)ROM - 
+
+PCB dimensions:
+	190 x 160 mm
+Mounting holes:
+	4 x M4, 10 mm from edges (170 x 140 mm rectangle)
