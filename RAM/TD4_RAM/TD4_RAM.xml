@@ -1,0 +1,3421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/trash/kicad/TD4/RAM/TD4_RAM/TD4_RAM.sch</source>
+    <date>Fri 22 Feb 2019 06:22:16 PM MSK</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>TD4_RAM.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Address comparator/" tstamps="/5C5DC05E/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Adr_comp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Address comparator/4-bitwise XOR/" tstamps="/5C5DC05E/5C5DC213/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Address comparator/4-bitwise NOT/" tstamps="/5C5DC05E/5C820776/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Address comparator/2x  Quad AND/" tstamps="/5C5DC05E/5C84D72F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Address comparator/Sheet5C8515A6/" tstamps="/5C5DC05E/5C8515A7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Numbers.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Address comparator/sheet5CC7FE6A/" tstamps="/5C5DC05E/5CC7FE6F/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Address comparator/sheet5CC86B52/" tstamps="/5C5DC05E/5CC86B57/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Address comparator/sheet5CC8D83A/" tstamps="/5C5DC05E/5CC8D83F/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Address comparator/sheet5CC94522/" tstamps="/5C5DC05E/5CC94527/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Address comparator/sheet5CC9B20A/" tstamps="/5C5DC05E/5CC9B20F/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Address comparator/sheet5CCA1EF2/" tstamps="/5C5DC05E/5CCA1EF7/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/Address comparator/sheet5CCA8BDA/" tstamps="/5C5DC05E/5CCA8BDF/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/Address comparator/sheet5CCAF8C2/" tstamps="/5C5DC05E/5CCAF8C7/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/Address comparator/sheet5CCB65AA/" tstamps="/5C5DC05E/5CCB65AF/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/Address comparator/sheet5CCBD292/" tstamps="/5C5DC05E/5CCBD297/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="17" name="/Address comparator/sheet5CCC3F7A/" tstamps="/5C5DC05E/5CCC3F7F/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="18" name="/Address comparator/sheet5CCCAC62/" tstamps="/5C5DC05E/5CCCAC67/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="19" name="/Address comparator/sheet5CCD8632/" tstamps="/5C5DC05E/5CCD8637/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="20" name="/Address comparator/sheet5CCDF31A/" tstamps="/5C5DC05E/5CCDF31F/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="21" name="/Address comparator/sheet5CCE6002/" tstamps="/5C5DC05E/5CCE6007/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Quad_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="22" name="/Address comparator/sheet5CCFCFC3/" tstamps="/5C5DC05E/5CCFCFC7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="23" name="/Address comparator/sheet5CD03CAA/" tstamps="/5C5DC05E/5CD03CAE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="24" name="/Address comparator/sheet5CD0A991/" tstamps="/5C5DC05E/5CD0A995/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="25" name="/Address comparator/sheet5CD11684/" tstamps="/5C5DC05E/5CD1168B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="26" name="/Address comparator/sheet5CD11685/" tstamps="/5C5DC05E/5CD1168F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="27" name="/Address comparator/sheet5CD11686/" tstamps="/5C5DC05E/5CD11693/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="28" name="/Address comparator/sheet5CD11687/" tstamps="/5C5DC05E/5CD11697/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="29" name="/Address comparator/sheet5CD1837A/" tstamps="/5C5DC05E/5CD18381/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="30" name="/Address comparator/sheet5CD1837B/" tstamps="/5C5DC05E/5CD18385/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="31" name="/Address comparator/sheet5CD1837C/" tstamps="/5C5DC05E/5CD18389/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="32" name="/Address comparator/sheet5CD1837D/" tstamps="/5C5DC05E/5CD1838D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="33" name="/Address comparator/sheet5CD1F070/" tstamps="/5C5DC05E/5CD1F077/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="34" name="/Address comparator/sheet5CD1F071/" tstamps="/5C5DC05E/5CD1F07B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="35" name="/Address comparator/sheet5CD1F072/" tstamps="/5C5DC05E/5CD1F07F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="36" name="/Address comparator/sheet5CD1F073/" tstamps="/5C5DC05E/5CD1F083/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>4-bitwise_NOT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="37" name="/Address comparator/sheet5CD28477/" tstamps="/5C5DC05E/5CD2847D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="38" name="/Address comparator/sheet5CD2F160/" tstamps="/5C5DC05E/5CD2F166/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="39" name="/Address comparator/sheet5CD35E49/" tstamps="/5C5DC05E/5CD35E4F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="40" name="/Address comparator/sheet5CD3CB46/" tstamps="/5C5DC05E/5CD3CB4F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="41" name="/Address comparator/sheet5CD3CB47/" tstamps="/5C5DC05E/5CD3CB55/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="42" name="/Address comparator/sheet5CD3CB48/" tstamps="/5C5DC05E/5CD3CB5B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="43" name="/Address comparator/sheet5CD3CB49/" tstamps="/5C5DC05E/5CD3CB61/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2xQuad_AND.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="44" name="/sheet5CBA2603/" tstamps="/5CBA2607/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>And16.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="45" name="/sheet5CBF05D3/" tstamps="/5CBF05D6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>16-bitwise_XOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="46" name="/sheet5CBF05D4/" tstamps="/5CBF05D8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Bank_switches.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="47" name="/Memory block/" tstamps="/5C5CC7FC/">
+      <title_block>
+        <title>TD4 RAM module</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date/>
+        <source>Memory_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>74AHC1G32</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G32" description="Single OR Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF40292</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x32_Row_Letter_First</value>
+      <footprint>Connector_DIN:DIN41612_B_2x32_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x32_Row_Letter_First" description="Generic connector, double row, 02x32, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C908565</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6E5845</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70A92B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71B511</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/4-bitwise XOR/" tstamps="/5C5DC05E/5C5DC213/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/4-bitwise XOR/" tstamps="/5C5DC05E/5C5DC213/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/4-bitwise NOT/" tstamps="/5C5DC05E/5C820776/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/4-bitwise NOT/" tstamps="/5C5DC05E/5C820776/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/2x  Quad AND/" tstamps="/5C5DC05E/5C84D72F/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/2x  Quad AND/" tstamps="/5C5DC05E/5C84D72F/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CC7FE6A/" tstamps="/5C5DC05E/5CC7FE6F/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CC7FE6A/" tstamps="/5C5DC05E/5CC7FE6F/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CC86B52/" tstamps="/5C5DC05E/5CC86B57/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CC86B52/" tstamps="/5C5DC05E/5CC86B57/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CC8D83A/" tstamps="/5C5DC05E/5CC8D83F/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CC8D83A/" tstamps="/5C5DC05E/5CC8D83F/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CC94522/" tstamps="/5C5DC05E/5CC94527/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CC94522/" tstamps="/5C5DC05E/5CC94527/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CC9B20A/" tstamps="/5C5DC05E/5CC9B20F/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CC9B20A/" tstamps="/5C5DC05E/5CC9B20F/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCA1EF2/" tstamps="/5C5DC05E/5CCA1EF7/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCA1EF2/" tstamps="/5C5DC05E/5CCA1EF7/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCA8BDA/" tstamps="/5C5DC05E/5CCA8BDF/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCA8BDA/" tstamps="/5C5DC05E/5CCA8BDF/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCAF8C2/" tstamps="/5C5DC05E/5CCAF8C7/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCAF8C2/" tstamps="/5C5DC05E/5CCAF8C7/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCB65AA/" tstamps="/5C5DC05E/5CCB65AF/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCB65AA/" tstamps="/5C5DC05E/5CCB65AF/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCBD292/" tstamps="/5C5DC05E/5CCBD297/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCBD292/" tstamps="/5C5DC05E/5CCBD297/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCC3F7A/" tstamps="/5C5DC05E/5CCC3F7F/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCC3F7A/" tstamps="/5C5DC05E/5CCC3F7F/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCCAC62/" tstamps="/5C5DC05E/5CCCAC67/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCCAC62/" tstamps="/5C5DC05E/5CCCAC67/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCD8632/" tstamps="/5C5DC05E/5CCD8637/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCD8632/" tstamps="/5C5DC05E/5CCD8637/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCDF31A/" tstamps="/5C5DC05E/5CCDF31F/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCDF31A/" tstamps="/5C5DC05E/5CCDF31F/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/Address comparator/sheet5CCE6002/" tstamps="/5C5DC05E/5CCE6007/"/>
+      <tstamp>5C5DC2EE</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCE6002/" tstamps="/5C5DC05E/5CCE6007/"/>
+      <tstamp>5C5DC564</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CCFCFC3/" tstamps="/5C5DC05E/5CCFCFC7/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CCFCFC3/" tstamps="/5C5DC05E/5CCFCFC7/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD03CAA/" tstamps="/5C5DC05E/5CD03CAE/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD03CAA/" tstamps="/5C5DC05E/5CD03CAE/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD0A991/" tstamps="/5C5DC05E/5CD0A995/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD0A991/" tstamps="/5C5DC05E/5CD0A995/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD11684/" tstamps="/5C5DC05E/5CD1168B/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD11684/" tstamps="/5C5DC05E/5CD1168B/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD11685/" tstamps="/5C5DC05E/5CD1168F/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD11685/" tstamps="/5C5DC05E/5CD1168F/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD11686/" tstamps="/5C5DC05E/5CD11693/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD11686/" tstamps="/5C5DC05E/5CD11693/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD11687/" tstamps="/5C5DC05E/5CD11697/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD11687/" tstamps="/5C5DC05E/5CD11697/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1837A/" tstamps="/5C5DC05E/5CD18381/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1837A/" tstamps="/5C5DC05E/5CD18381/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1837B/" tstamps="/5C5DC05E/5CD18385/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1837B/" tstamps="/5C5DC05E/5CD18385/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1837C/" tstamps="/5C5DC05E/5CD18389/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1837C/" tstamps="/5C5DC05E/5CD18389/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1837D/" tstamps="/5C5DC05E/5CD1838D/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1837D/" tstamps="/5C5DC05E/5CD1838D/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1F070/" tstamps="/5C5DC05E/5CD1F077/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1F070/" tstamps="/5C5DC05E/5CD1F077/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1F071/" tstamps="/5C5DC05E/5CD1F07B/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1F071/" tstamps="/5C5DC05E/5CD1F07B/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1F072/" tstamps="/5C5DC05E/5CD1F07F/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1F072/" tstamps="/5C5DC05E/5CD1F07F/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>74HC04</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</datasheet>
+      <libsource lib="74xx" part="74HC04" description="hex inverter"/>
+      <sheetpath names="/Address comparator/sheet5CD1F073/" tstamps="/5C5DC05E/5CD1F083/"/>
+      <tstamp>5C820969</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD1F073/" tstamps="/5C5DC05E/5CD1F083/"/>
+      <tstamp>5C820D48</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD28477/" tstamps="/5C5DC05E/5CD2847D/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD28477/" tstamps="/5C5DC05E/5CD2847D/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD2F160/" tstamps="/5C5DC05E/5CD2F166/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD2F160/" tstamps="/5C5DC05E/5CD2F166/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U37">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD35E49/" tstamps="/5C5DC05E/5CD35E4F/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD35E49/" tstamps="/5C5DC05E/5CD35E4F/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U38">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB46/" tstamps="/5C5DC05E/5CD3CB4F/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB46/" tstamps="/5C5DC05E/5CD3CB4F/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U39">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB47/" tstamps="/5C5DC05E/5CD3CB55/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB47/" tstamps="/5C5DC05E/5CD3CB55/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U40">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB48/" tstamps="/5C5DC05E/5CD3CB5B/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB48/" tstamps="/5C5DC05E/5CD3CB5B/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U41">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB49/" tstamps="/5C5DC05E/5CD3CB61/"/>
+      <tstamp>5C84D8AE</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Address comparator/sheet5CD3CB49/" tstamps="/5C5DC05E/5CD3CB61/"/>
+      <tstamp>5C84DA33</tstamp>
+    </comp>
+    <comp ref="U42">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C969D91</tstamp>
+    </comp>
+    <comp ref="U44">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C969E1F</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>74HC21</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
+      <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C969E49</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C96A0AF</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C96A15D</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
+      <tstamp>5C96A1B2</tstamp>
+    </comp>
+    <comp ref="U45">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD01E4</tstamp>
+    </comp>
+    <comp ref="U46">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD01EB</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD01F2</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD01F9</tstamp>
+    </comp>
+    <comp ref="U47">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD0222</tstamp>
+    </comp>
+    <comp ref="U48">
+      <value>74HC86</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD0229</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD0230</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet5CBF05D3/" tstamps="/5CBF05D6/"/>
+      <tstamp>5CBD0237</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x08</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44CC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44D3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44DA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44E1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44E8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44EF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44F6</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE44FD</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE4504</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x08</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x08" description="8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80C3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80CA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80D1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80D8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80DF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80E6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80ED</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80F4</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5CBF05D4/" tstamps="/5CBF05D8/"/>
+      <tstamp>5CBE80FB</tstamp>
+    </comp>
+    <comp ref="U49">
+      <value>К561РУ2</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <libsource lib="Custom_Symbols" part="К561РУ2" description=""/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5CC81A</tstamp>
+    </comp>
+    <comp ref="U50">
+      <value>К561РУ2</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <libsource lib="Custom_Symbols" part="К561РУ2" description=""/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5CCAE5</tstamp>
+    </comp>
+    <comp ref="U51">
+      <value>К561РУ2</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <libsource lib="Custom_Symbols" part="К561РУ2" description=""/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5CCB4B</tstamp>
+    </comp>
+    <comp ref="U52">
+      <value>К561РУ2</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket_LongPads</footprint>
+      <libsource lib="Custom_Symbols" part="К561РУ2" description=""/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5CCBCB</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5F9413</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5F94B2</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5FC448</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Memory block/" tstamps="/5C5CC7FC/"/>
+      <tstamp>5C5FF40E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G32">
+      <aliases>
+        <alias>74AHC1G32</alias>
+        <alias>74AHCT1G32</alias>
+        <alias>74AUC1G32</alias>
+        <alias>74AUP1G32</alias>
+      </aliases>
+      <description>Single OR Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HCT04">
+      <aliases>
+        <alias>74HC14</alias>
+        <alias>74HC04</alias>
+        <alias>74LS14</alias>
+      </aliases>
+      <description>hex inverter</description>
+      <docs>http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS21">
+      <description>Dual 4-input AND</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS21</docs>
+      <footprints>
+        <fp>DIP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS21</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS86">
+      <aliases>
+        <alias>74HC86</alias>
+      </aliases>
+      <description>Quad 2-input XOR</description>
+      <docs>74xx/74ls86.pdf</docs>
+      <footprints>
+        <fp>DIP?14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS86</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x32_Row_Letter_First">
+      <description>Generic connector, double row, 02x32, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x32_Row_Letter_First</field>
+      </fields>
+      <pins>
+        <pin num="a1" name="Pin_a1" type="passive"/>
+        <pin num="a2" name="Pin_a2" type="passive"/>
+        <pin num="a3" name="Pin_a3" type="passive"/>
+        <pin num="a4" name="Pin_a4" type="passive"/>
+        <pin num="a5" name="Pin_a5" type="passive"/>
+        <pin num="a6" name="Pin_a6" type="passive"/>
+        <pin num="a7" name="Pin_a7" type="passive"/>
+        <pin num="a8" name="Pin_a8" type="passive"/>
+        <pin num="a9" name="Pin_a9" type="passive"/>
+        <pin num="a10" name="Pin_a10" type="passive"/>
+        <pin num="a11" name="Pin_a11" type="passive"/>
+        <pin num="a12" name="Pin_a12" type="passive"/>
+        <pin num="a13" name="Pin_a13" type="passive"/>
+        <pin num="a14" name="Pin_a14" type="passive"/>
+        <pin num="a15" name="Pin_a15" type="passive"/>
+        <pin num="a16" name="Pin_a16" type="passive"/>
+        <pin num="a17" name="Pin_a17" type="passive"/>
+        <pin num="a18" name="Pin_a18" type="passive"/>
+        <pin num="a19" name="Pin_a19" type="passive"/>
+        <pin num="a20" name="Pin_a20" type="passive"/>
+        <pin num="a21" name="Pin_a21" type="passive"/>
+        <pin num="a22" name="Pin_a22" type="passive"/>
+        <pin num="a23" name="Pin_a23" type="passive"/>
+        <pin num="a24" name="Pin_a24" type="passive"/>
+        <pin num="a25" name="Pin_a25" type="passive"/>
+        <pin num="a26" name="Pin_a26" type="passive"/>
+        <pin num="a27" name="Pin_a27" type="passive"/>
+        <pin num="a28" name="Pin_a28" type="passive"/>
+        <pin num="a29" name="Pin_a29" type="passive"/>
+        <pin num="a30" name="Pin_a30" type="passive"/>
+        <pin num="a31" name="Pin_a31" type="passive"/>
+        <pin num="a32" name="Pin_a32" type="passive"/>
+        <pin num="b1" name="Pin_b1" type="passive"/>
+        <pin num="b2" name="Pin_b2" type="passive"/>
+        <pin num="b3" name="Pin_b3" type="passive"/>
+        <pin num="b4" name="Pin_b4" type="passive"/>
+        <pin num="b5" name="Pin_b5" type="passive"/>
+        <pin num="b6" name="Pin_b6" type="passive"/>
+        <pin num="b7" name="Pin_b7" type="passive"/>
+        <pin num="b8" name="Pin_b8" type="passive"/>
+        <pin num="b9" name="Pin_b9" type="passive"/>
+        <pin num="b10" name="Pin_b10" type="passive"/>
+        <pin num="b11" name="Pin_b11" type="passive"/>
+        <pin num="b12" name="Pin_b12" type="passive"/>
+        <pin num="b13" name="Pin_b13" type="passive"/>
+        <pin num="b14" name="Pin_b14" type="passive"/>
+        <pin num="b15" name="Pin_b15" type="passive"/>
+        <pin num="b16" name="Pin_b16" type="passive"/>
+        <pin num="b17" name="Pin_b17" type="passive"/>
+        <pin num="b18" name="Pin_b18" type="passive"/>
+        <pin num="b19" name="Pin_b19" type="passive"/>
+        <pin num="b20" name="Pin_b20" type="passive"/>
+        <pin num="b21" name="Pin_b21" type="passive"/>
+        <pin num="b22" name="Pin_b22" type="passive"/>
+        <pin num="b23" name="Pin_b23" type="passive"/>
+        <pin num="b24" name="Pin_b24" type="passive"/>
+        <pin num="b25" name="Pin_b25" type="passive"/>
+        <pin num="b26" name="Pin_b26" type="passive"/>
+        <pin num="b27" name="Pin_b27" type="passive"/>
+        <pin num="b28" name="Pin_b28" type="passive"/>
+        <pin num="b29" name="Pin_b29" type="passive"/>
+        <pin num="b30" name="Pin_b30" type="passive"/>
+        <pin num="b31" name="Pin_b31" type="passive"/>
+        <pin num="b32" name="Pin_b32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Symbols" part="К561РУ2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">К561РУ2</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm_Socket_LongPads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="Vcc" type="input"/>
+        <pin num="6" name="A3" type="input"/>
+        <pin num="7" name="A4" type="input"/>
+        <pin num="8" name="N/C" type="NotConnected"/>
+        <pin num="9" name="A5" type="input"/>
+        <pin num="10" name="A6" type="input"/>
+        <pin num="11" name="A7" type="input"/>
+        <pin num="12" name="D" type="input"/>
+        <pin num="13" name="Q" type="output"/>
+        <pin num="14" name="~Q" type="output"/>
+        <pin num="15" name="~R~/W" type="input"/>
+        <pin num="16" name="~CS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x08">
+      <description>8x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/usr/share/kicad/library/74xGxx.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Custom_Symbols">
+      <uri>/home/trash/kicad/library/symbols/Custom_Symbols.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Padb30)">
+      <node ref="J1" pin="b30"/>
+    </net>
+    <net code="2" name="Net-(J1-Padb3)">
+      <node ref="J1" pin="b3"/>
+    </net>
+    <net code="3" name="Net-(J1-Padb29)">
+      <node ref="J1" pin="b29"/>
+    </net>
+    <net code="4" name="Net-(J1-Padb28)">
+      <node ref="J1" pin="b28"/>
+    </net>
+    <net code="5" name="Net-(J1-Padb21)">
+      <node ref="J1" pin="b21"/>
+    </net>
+    <net code="6" name="Net-(J1-Padb18)">
+      <node ref="J1" pin="b18"/>
+    </net>
+    <net code="7" name="Net-(J1-Padb17)">
+      <node ref="J1" pin="b17"/>
+    </net>
+    <net code="8" name="Net-(J1-Padb16)">
+      <node ref="J1" pin="b16"/>
+    </net>
+    <net code="9" name="Net-(J1-Padb15)">
+      <node ref="J1" pin="b15"/>
+    </net>
+    <net code="10" name="Net-(J1-Padb14)">
+      <node ref="J1" pin="b14"/>
+    </net>
+    <net code="11" name="Net-(J1-Padb13)">
+      <node ref="J1" pin="b13"/>
+    </net>
+    <net code="12" name="Net-(J1-Padb12)">
+      <node ref="J1" pin="b12"/>
+    </net>
+    <net code="13" name="Net-(J1-Padb11)">
+      <node ref="J1" pin="b11"/>
+    </net>
+    <net code="14" name="Net-(J1-Padb10)">
+      <node ref="J1" pin="b10"/>
+    </net>
+    <net code="15" name="Net-(J1-Padb9)">
+      <node ref="J1" pin="b9"/>
+    </net>
+    <net code="16" name="Net-(J1-Padb8)">
+      <node ref="J1" pin="b8"/>
+    </net>
+    <net code="17" name="Net-(J1-Padb7)">
+      <node ref="J1" pin="b7"/>
+    </net>
+    <net code="18" name="Net-(J1-Padb6)">
+      <node ref="J1" pin="b6"/>
+    </net>
+    <net code="19" name="Net-(J1-Padb5)">
+      <node ref="J1" pin="b5"/>
+    </net>
+    <net code="20" name="Net-(J1-Padb4)">
+      <node ref="J1" pin="b4"/>
+    </net>
+    <net code="21" name="/RAM_D3">
+      <node ref="U52" pin="12"/>
+      <node ref="U52" pin="13"/>
+      <node ref="J1" pin="b25"/>
+    </net>
+    <net code="22" name="Net-(J1-Pada17)">
+      <node ref="J1" pin="a17"/>
+    </net>
+    <net code="23" name="Net-(J1-Pada16)">
+      <node ref="J1" pin="a16"/>
+    </net>
+    <net code="24" name="Net-(J1-Pada15)">
+      <node ref="J1" pin="a15"/>
+    </net>
+    <net code="25" name="Net-(J1-Pada14)">
+      <node ref="J1" pin="a14"/>
+    </net>
+    <net code="26" name="Net-(J1-Pada13)">
+      <node ref="J1" pin="a13"/>
+    </net>
+    <net code="27" name="Net-(J1-Pada12)">
+      <node ref="J1" pin="a12"/>
+    </net>
+    <net code="28" name="Net-(J1-Pada11)">
+      <node ref="J1" pin="a11"/>
+    </net>
+    <net code="29" name="Net-(J1-Pada10)">
+      <node ref="J1" pin="a10"/>
+    </net>
+    <net code="30" name="/RAM_WE">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="b27"/>
+    </net>
+    <net code="31" name="/RAM_RW">
+      <node ref="U50" pin="15"/>
+      <node ref="J1" pin="b26"/>
+      <node ref="U51" pin="15"/>
+      <node ref="U49" pin="15"/>
+      <node ref="U52" pin="15"/>
+    </net>
+    <net code="32" name="Net-(J1-Pada18)">
+      <node ref="J1" pin="a18"/>
+    </net>
+    <net code="33" name="/RAM_D2">
+      <node ref="U51" pin="12"/>
+      <node ref="J1" pin="b24"/>
+      <node ref="U51" pin="13"/>
+    </net>
+    <net code="34" name="/RAM_D1">
+      <node ref="U50" pin="12"/>
+      <node ref="U50" pin="13"/>
+      <node ref="J1" pin="b23"/>
+    </net>
+    <net code="35" name="/RAM_D0">
+      <node ref="J1" pin="b22"/>
+      <node ref="U49" pin="12"/>
+      <node ref="U49" pin="13"/>
+    </net>
+    <net code="36" name="/RAM_A6">
+      <node ref="U16" pin="10"/>
+      <node ref="U50" pin="10"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U51" pin="10"/>
+      <node ref="U18" pin="10"/>
+      <node ref="U9" pin="10"/>
+      <node ref="U19" pin="10"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U17" pin="10"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U52" pin="10"/>
+      <node ref="U13" pin="10"/>
+      <node ref="U12" pin="10"/>
+      <node ref="U14" pin="10"/>
+      <node ref="J1" pin="a28"/>
+      <node ref="U15" pin="10"/>
+      <node ref="U49" pin="10"/>
+      <node ref="U10" pin="10"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="37" name="Net-(J1-Pada9)">
+      <node ref="J1" pin="a9"/>
+    </net>
+    <net code="38" name="Net-(J1-Pada8)">
+      <node ref="J1" pin="a8"/>
+    </net>
+    <net code="39" name="Net-(J1-Pada7)">
+      <node ref="J1" pin="a7"/>
+    </net>
+    <net code="40" name="Net-(J1-Pada6)">
+      <node ref="J1" pin="a6"/>
+    </net>
+    <net code="41" name="Net-(J1-Pada5)">
+      <node ref="J1" pin="a5"/>
+    </net>
+    <net code="42" name="Net-(J1-Pada4)">
+      <node ref="J1" pin="a4"/>
+    </net>
+    <net code="43" name="Net-(J1-Pada30)">
+      <node ref="J1" pin="a30"/>
+    </net>
+    <net code="44" name="Net-(J1-Pada3)">
+      <node ref="J1" pin="a3"/>
+    </net>
+    <net code="45" name="/RAM_A7">
+      <node ref="U5" pin="13"/>
+      <node ref="U11" pin="13"/>
+      <node ref="U12" pin="13"/>
+      <node ref="U13" pin="13"/>
+      <node ref="U9" pin="13"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U14" pin="13"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U10" pin="13"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U17" pin="13"/>
+      <node ref="U18" pin="13"/>
+      <node ref="U19" pin="13"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U15" pin="13"/>
+      <node ref="U16" pin="13"/>
+      <node ref="U49" pin="11"/>
+      <node ref="U51" pin="11"/>
+      <node ref="J1" pin="a29"/>
+      <node ref="U50" pin="11"/>
+      <node ref="U52" pin="11"/>
+    </net>
+    <net code="46" name="/RAM_A5">
+      <node ref="U10" pin="5"/>
+      <node ref="U13" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U19" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U14" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U15" pin="5"/>
+      <node ref="U17" pin="5"/>
+      <node ref="U12" pin="5"/>
+      <node ref="U52" pin="9"/>
+      <node ref="J1" pin="a27"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U18" pin="5"/>
+      <node ref="U50" pin="9"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U49" pin="9"/>
+      <node ref="U51" pin="9"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="47" name="/RAM_A3">
+      <node ref="U52" pin="6"/>
+      <node ref="J1" pin="a25"/>
+      <node ref="U49" pin="6"/>
+      <node ref="U50" pin="6"/>
+      <node ref="U51" pin="6"/>
+    </net>
+    <net code="48" name="/RAM_A2">
+      <node ref="U51" pin="3"/>
+      <node ref="U49" pin="3"/>
+      <node ref="U50" pin="3"/>
+      <node ref="J1" pin="a24"/>
+      <node ref="U52" pin="3"/>
+    </net>
+    <net code="49" name="/RAM_A1">
+      <node ref="U51" pin="2"/>
+      <node ref="J1" pin="a23"/>
+      <node ref="U50" pin="2"/>
+      <node ref="U52" pin="2"/>
+      <node ref="U49" pin="2"/>
+    </net>
+    <net code="50" name="/RAM_A0">
+      <node ref="J1" pin="a22"/>
+      <node ref="U52" pin="1"/>
+      <node ref="U49" pin="1"/>
+      <node ref="U51" pin="1"/>
+      <node ref="U50" pin="1"/>
+    </net>
+    <net code="51" name="Net-(J1-Pada21)">
+      <node ref="J1" pin="a21"/>
+    </net>
+    <net code="52" name="/Memory block/~CS">
+      <node ref="U49" pin="16"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U52" pin="16"/>
+      <node ref="U50" pin="16"/>
+      <node ref="U51" pin="16"/>
+    </net>
+    <net code="53" name="/sheet5CBA2603/Q0">
+      <node ref="U1" pin="1"/>
+      <node ref="U43" pin="6"/>
+    </net>
+    <net code="55" name="Net-(U50-Pad14)">
+      <node ref="U50" pin="14"/>
+    </net>
+    <net code="56" name="Net-(U49-Pad14)">
+      <node ref="U49" pin="14"/>
+    </net>
+    <net code="57" name="Net-(U49-Pad8)">
+      <node ref="U49" pin="8"/>
+    </net>
+    <net code="58" name="Net-(U52-Pad14)">
+      <node ref="U52" pin="14"/>
+    </net>
+    <net code="59" name="Net-(U51-Pad14)">
+      <node ref="U51" pin="14"/>
+    </net>
+    <net code="60" name="Net-(U52-Pad8)">
+      <node ref="U52" pin="8"/>
+    </net>
+    <net code="61" name="Net-(U51-Pad8)">
+      <node ref="U51" pin="8"/>
+    </net>
+    <net code="62" name="Net-(U50-Pad8)">
+      <node ref="U50" pin="8"/>
+    </net>
+    <net code="78" name="Net-(U44-Pad8)">
+      <node ref="U44" pin="8"/>
+    </net>
+    <net code="79" name="Net-(U42-Pad6)">
+      <node ref="U43" pin="1"/>
+      <node ref="U42" pin="6"/>
+    </net>
+    <net code="80" name="Net-(U42-Pad8)">
+      <node ref="U43" pin="2"/>
+      <node ref="U42" pin="8"/>
+    </net>
+    <net code="81" name="Net-(U43-Pad4)">
+      <node ref="U44" pin="6"/>
+      <node ref="U43" pin="4"/>
+    </net>
+    <net code="82" name="Net-(U43-Pad5)">
+      <node ref="U43" pin="8"/>
+      <node ref="U43" pin="5"/>
+    </net>
+    <net code="86" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="87" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="88" name="Net-(U20-Pad10)">
+      <node ref="U20" pin="10"/>
+    </net>
+    <net code="89" name="Net-(U20-Pad12)">
+      <node ref="U20" pin="12"/>
+    </net>
+    <net code="90" name="Net-(U21-Pad10)">
+      <node ref="U21" pin="10"/>
+    </net>
+    <net code="91" name="Net-(U21-Pad12)">
+      <node ref="U21" pin="12"/>
+    </net>
+    <net code="92" name="Net-(U22-Pad12)">
+      <node ref="U22" pin="12"/>
+    </net>
+    <net code="93" name="Net-(U22-Pad10)">
+      <node ref="U22" pin="10"/>
+    </net>
+    <net code="94" name="Net-(U23-Pad10)">
+      <node ref="U23" pin="10"/>
+    </net>
+    <net code="95" name="Net-(U23-Pad12)">
+      <node ref="U23" pin="12"/>
+    </net>
+    <net code="96" name="Net-(U24-Pad10)">
+      <node ref="U24" pin="10"/>
+    </net>
+    <net code="97" name="Net-(U24-Pad12)">
+      <node ref="U24" pin="12"/>
+    </net>
+    <net code="98" name="Net-(U25-Pad10)">
+      <node ref="U25" pin="10"/>
+    </net>
+    <net code="99" name="Net-(U25-Pad12)">
+      <node ref="U25" pin="12"/>
+    </net>
+    <net code="100" name="Net-(U26-Pad10)">
+      <node ref="U26" pin="10"/>
+    </net>
+    <net code="101" name="Net-(U26-Pad12)">
+      <node ref="U26" pin="12"/>
+    </net>
+    <net code="102" name="Net-(U27-Pad12)">
+      <node ref="U27" pin="12"/>
+    </net>
+    <net code="103" name="Net-(U27-Pad10)">
+      <node ref="U27" pin="10"/>
+    </net>
+    <net code="104" name="Net-(U28-Pad12)">
+      <node ref="U28" pin="12"/>
+    </net>
+    <net code="105" name="Net-(U28-Pad10)">
+      <node ref="U28" pin="10"/>
+    </net>
+    <net code="106" name="Net-(U29-Pad10)">
+      <node ref="U29" pin="10"/>
+    </net>
+    <net code="107" name="Net-(U29-Pad12)">
+      <node ref="U29" pin="12"/>
+    </net>
+    <net code="108" name="Net-(U30-Pad10)">
+      <node ref="U30" pin="10"/>
+    </net>
+    <net code="109" name="Net-(U30-Pad12)">
+      <node ref="U30" pin="12"/>
+    </net>
+    <net code="110" name="Net-(U31-Pad10)">
+      <node ref="U31" pin="10"/>
+    </net>
+    <net code="111" name="Net-(U31-Pad12)">
+      <node ref="U31" pin="12"/>
+    </net>
+    <net code="112" name="Net-(U32-Pad12)">
+      <node ref="U32" pin="12"/>
+    </net>
+    <net code="113" name="Net-(U32-Pad10)">
+      <node ref="U32" pin="10"/>
+    </net>
+    <net code="114" name="Net-(U33-Pad12)">
+      <node ref="U33" pin="12"/>
+    </net>
+    <net code="115" name="Net-(U33-Pad10)">
+      <node ref="U33" pin="10"/>
+    </net>
+    <net code="116" name="Net-(U34-Pad10)">
+      <node ref="U34" pin="10"/>
+    </net>
+    <net code="117" name="Net-(U34-Pad12)">
+      <node ref="U34" pin="12"/>
+    </net>
+    <net code="118" name="/RAM_A4">
+      <node ref="U52" pin="7"/>
+      <node ref="U50" pin="7"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U16" pin="2"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="J1" pin="a26"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U49" pin="7"/>
+      <node ref="U51" pin="7"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U19" pin="2"/>
+    </net>
+    <net code="119" name="/sheet5CBA2603/A7">
+      <node ref="U42" pin="13"/>
+      <node ref="U47" pin="11"/>
+    </net>
+    <net code="120" name="/sheet5CBF05D3/A2">
+      <node ref="SW1" pin="14"/>
+      <node ref="U45" pin="9"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="121" name="/sheet5CBF05D3/A1">
+      <node ref="SW1" pin="15"/>
+      <node ref="U45" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="122" name="/sheet5CBF05D3/A0">
+      <node ref="U45" pin="1"/>
+      <node ref="SW1" pin="16"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="123" name="/sheet5CBA2603/A15">
+      <node ref="U48" pin="11"/>
+      <node ref="U43" pin="13"/>
+    </net>
+    <net code="124" name="/sheet5CBA2603/A14">
+      <node ref="U48" pin="8"/>
+      <node ref="U43" pin="12"/>
+    </net>
+    <net code="125" name="/sheet5CBA2603/A13">
+      <node ref="U43" pin="10"/>
+      <node ref="U48" pin="6"/>
+    </net>
+    <net code="126" name="/sheet5CBA2603/A12">
+      <node ref="U43" pin="9"/>
+      <node ref="U48" pin="3"/>
+    </net>
+    <net code="127" name="/sheet5CBA2603/A11">
+      <node ref="U44" pin="5"/>
+      <node ref="U46" pin="11"/>
+    </net>
+    <net code="128" name="/sheet5CBA2603/A10">
+      <node ref="U44" pin="4"/>
+      <node ref="U46" pin="8"/>
+    </net>
+    <net code="129" name="/sheet5CBA2603/A9">
+      <node ref="U44" pin="2"/>
+      <node ref="U46" pin="6"/>
+    </net>
+    <net code="130" name="/sheet5CBA2603/A8">
+      <node ref="U44" pin="1"/>
+      <node ref="U46" pin="3"/>
+    </net>
+    <net code="131" name="/sheet5CBF05D3/A3">
+      <node ref="R7" pin="1"/>
+      <node ref="U45" pin="12"/>
+      <node ref="SW1" pin="13"/>
+    </net>
+    <net code="132" name="/sheet5CBA2603/A6">
+      <node ref="U47" pin="8"/>
+      <node ref="U42" pin="12"/>
+    </net>
+    <net code="133" name="/sheet5CBA2603/A5">
+      <node ref="U42" pin="10"/>
+      <node ref="U47" pin="6"/>
+    </net>
+    <net code="134" name="/sheet5CBA2603/A4">
+      <node ref="U47" pin="3"/>
+      <node ref="U42" pin="9"/>
+    </net>
+    <net code="135" name="/sheet5CBA2603/A3">
+      <node ref="U42" pin="5"/>
+      <node ref="U45" pin="11"/>
+    </net>
+    <net code="136" name="/sheet5CBA2603/A2">
+      <node ref="U42" pin="4"/>
+      <node ref="U45" pin="8"/>
+    </net>
+    <net code="137" name="/sheet5CBA2603/A1">
+      <node ref="U42" pin="2"/>
+      <node ref="U45" pin="6"/>
+    </net>
+    <net code="138" name="/sheet5CBA2603/A0">
+      <node ref="U45" pin="3"/>
+      <node ref="U42" pin="1"/>
+    </net>
+    <net code="139" name="/sheet5CBF05D3/A15">
+      <node ref="SW2" pin="9"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U48" pin="12"/>
+    </net>
+    <net code="140" name="/sheet5CBF05D3/B10">
+      <node ref="U39" pin="6"/>
+      <node ref="U46" pin="10"/>
+    </net>
+    <net code="141" name="/sheet5CBF05D3/B9">
+      <node ref="U38" pin="8"/>
+      <node ref="U46" pin="5"/>
+    </net>
+    <net code="142" name="/sheet5CBF05D3/B8">
+      <node ref="U46" pin="2"/>
+      <node ref="U38" pin="6"/>
+    </net>
+    <net code="143" name="/sheet5CBF05D3/B7">
+      <node ref="U47" pin="13"/>
+      <node ref="U37" pin="8"/>
+    </net>
+    <net code="144" name="/sheet5CBF05D3/B6">
+      <node ref="U37" pin="6"/>
+      <node ref="U47" pin="10"/>
+    </net>
+    <net code="145" name="/sheet5CBF05D3/B5">
+      <node ref="U36" pin="8"/>
+      <node ref="U47" pin="5"/>
+    </net>
+    <net code="146" name="/sheet5CBF05D3/B4">
+      <node ref="U36" pin="6"/>
+      <node ref="U47" pin="2"/>
+    </net>
+    <net code="147" name="/sheet5CBF05D3/B3">
+      <node ref="U45" pin="13"/>
+      <node ref="U35" pin="8"/>
+    </net>
+    <net code="148" name="/sheet5CBF05D3/B2">
+      <node ref="U45" pin="10"/>
+      <node ref="U35" pin="6"/>
+    </net>
+    <net code="149" name="/sheet5CBF05D3/B1">
+      <node ref="U45" pin="5"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="150" name="/sheet5CBF05D3/B0">
+      <node ref="U4" pin="6"/>
+      <node ref="U45" pin="2"/>
+    </net>
+    <net code="151" name="/sheet5CBF05D3/A14">
+      <node ref="U48" pin="9"/>
+      <node ref="SW2" pin="10"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="152" name="/sheet5CBF05D3/A13">
+      <node ref="SW2" pin="11"/>
+      <node ref="U48" pin="4"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="153" name="/sheet5CBF05D3/A12">
+      <node ref="R10" pin="1"/>
+      <node ref="U48" pin="1"/>
+      <node ref="SW2" pin="12"/>
+    </net>
+    <net code="154" name="/sheet5CBF05D3/A11">
+      <node ref="R8" pin="1"/>
+      <node ref="U46" pin="12"/>
+      <node ref="SW2" pin="13"/>
+    </net>
+    <net code="155" name="/sheet5CBF05D3/A10">
+      <node ref="U46" pin="9"/>
+      <node ref="SW2" pin="14"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="156" name="/sheet5CBF05D3/A9">
+      <node ref="R4" pin="1"/>
+      <node ref="U46" pin="4"/>
+      <node ref="SW2" pin="15"/>
+    </net>
+    <net code="157" name="/sheet5CBF05D3/A8">
+      <node ref="R2" pin="1"/>
+      <node ref="SW2" pin="16"/>
+      <node ref="U46" pin="1"/>
+    </net>
+    <net code="158" name="/sheet5CBF05D3/A7">
+      <node ref="R15" pin="1"/>
+      <node ref="SW1" pin="9"/>
+      <node ref="U47" pin="12"/>
+    </net>
+    <net code="159" name="/sheet5CBF05D3/A6">
+      <node ref="SW1" pin="10"/>
+      <node ref="U47" pin="9"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="160" name="/sheet5CBF05D3/A5">
+      <node ref="U47" pin="4"/>
+      <node ref="SW1" pin="11"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="161" name="/sheet5CBF05D3/A4">
+      <node ref="R9" pin="1"/>
+      <node ref="U47" pin="1"/>
+      <node ref="SW1" pin="12"/>
+    </net>
+    <net code="162" name="/sheet5CBF05D3/B15">
+      <node ref="U48" pin="13"/>
+      <node ref="U41" pin="8"/>
+    </net>
+    <net code="163" name="/sheet5CBF05D3/B14">
+      <node ref="U48" pin="10"/>
+      <node ref="U41" pin="6"/>
+    </net>
+    <net code="164" name="/sheet5CBF05D3/B13">
+      <node ref="U40" pin="8"/>
+      <node ref="U48" pin="5"/>
+    </net>
+    <net code="165" name="/sheet5CBF05D3/B12">
+      <node ref="U40" pin="6"/>
+      <node ref="U48" pin="2"/>
+    </net>
+    <net code="166" name="/sheet5CBF05D3/B11">
+      <node ref="U46" pin="13"/>
+      <node ref="U39" pin="8"/>
+    </net>
+    <net code="168" name="/Address comparator/sheet5CD3CB49/B3">
+      <node ref="U41" pin="13"/>
+      <node ref="U34" pin="8"/>
+    </net>
+    <net code="169" name="/Address comparator/sheet5CD3CB49/B2">
+      <node ref="U34" pin="6"/>
+      <node ref="U41" pin="12"/>
+    </net>
+    <net code="170" name="/Address comparator/sheet5CD2F160/A1">
+      <node ref="U36" pin="2"/>
+      <node ref="U23" pin="4"/>
+    </net>
+    <net code="171" name="/Address comparator/sheet5CD28477/A0">
+      <node ref="U21" pin="2"/>
+      <node ref="U35" pin="1"/>
+    </net>
+    <net code="172" name="/Address comparator/sheet5CD28477/A1">
+      <node ref="U21" pin="4"/>
+      <node ref="U35" pin="2"/>
+    </net>
+    <net code="173" name="/Address comparator/sheet5CD28477/A2">
+      <node ref="U35" pin="4"/>
+      <node ref="U21" pin="6"/>
+    </net>
+    <net code="174" name="/Address comparator/sheet5CD28477/A3">
+      <node ref="U35" pin="5"/>
+      <node ref="U21" pin="8"/>
+    </net>
+    <net code="175" name="/Address comparator/sheet5CD28477/B0">
+      <node ref="U22" pin="2"/>
+      <node ref="U35" pin="9"/>
+    </net>
+    <net code="176" name="/Address comparator/sheet5CD28477/B1">
+      <node ref="U35" pin="10"/>
+      <node ref="U22" pin="4"/>
+    </net>
+    <net code="177" name="/Address comparator/sheet5CD28477/B2">
+      <node ref="U35" pin="12"/>
+      <node ref="U22" pin="6"/>
+    </net>
+    <net code="178" name="/Address comparator/sheet5CD28477/B3">
+      <node ref="U22" pin="8"/>
+      <node ref="U35" pin="13"/>
+    </net>
+    <net code="179" name="/Address comparator/sheet5CD2F160/A0">
+      <node ref="U23" pin="2"/>
+      <node ref="U36" pin="1"/>
+    </net>
+    <net code="180" name="/Address comparator/sheet5CD2F160/A2">
+      <node ref="U36" pin="4"/>
+      <node ref="U23" pin="6"/>
+    </net>
+    <net code="181" name="/Address comparator/sheet5CD2F160/A3">
+      <node ref="U23" pin="8"/>
+      <node ref="U36" pin="5"/>
+    </net>
+    <net code="182" name="/Address comparator/sheet5CD2F160/B0">
+      <node ref="U36" pin="9"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="183" name="/Address comparator/sheet5CD2F160/B1">
+      <node ref="U24" pin="4"/>
+      <node ref="U36" pin="10"/>
+    </net>
+    <net code="184" name="/Address comparator/sheet5CD2F160/B2">
+      <node ref="U36" pin="12"/>
+      <node ref="U24" pin="6"/>
+    </net>
+    <net code="185" name="/Address comparator/sheet5CD2F160/B3">
+      <node ref="U36" pin="13"/>
+      <node ref="U24" pin="8"/>
+    </net>
+    <net code="186" name="/Address comparator/sheet5CD35E49/A0">
+      <node ref="U25" pin="2"/>
+      <node ref="U37" pin="1"/>
+    </net>
+    <net code="187" name="/Address comparator/sheet5CD35E49/A1">
+      <node ref="U25" pin="4"/>
+      <node ref="U37" pin="2"/>
+    </net>
+    <net code="188" name="/Address comparator/sheet5CD3CB49/A2">
+      <node ref="U41" pin="4"/>
+      <node ref="U33" pin="6"/>
+    </net>
+    <net code="189" name="/Address comparator/sheet5CD3CB48/B0">
+      <node ref="U40" pin="9"/>
+      <node ref="U32" pin="2"/>
+    </net>
+    <net code="190" name="/Address comparator/sheet5CD3CB48/B1">
+      <node ref="U32" pin="4"/>
+      <node ref="U40" pin="10"/>
+    </net>
+    <net code="191" name="/Address comparator/sheet5CD3CB48/B2">
+      <node ref="U32" pin="6"/>
+      <node ref="U40" pin="12"/>
+    </net>
+    <net code="192" name="/Address comparator/sheet5CD3CB48/B3">
+      <node ref="U32" pin="8"/>
+      <node ref="U40" pin="13"/>
+    </net>
+    <net code="193" name="/Address comparator/sheet5CD1F072/A0">
+      <node ref="U19" pin="3"/>
+      <node ref="U33" pin="1"/>
+    </net>
+    <net code="194" name="/Address comparator/sheet5CD1F072/A1">
+      <node ref="U19" pin="6"/>
+      <node ref="U33" pin="3"/>
+    </net>
+    <net code="195" name="/Address comparator/sheet5CD1F072/A2">
+      <node ref="U33" pin="5"/>
+      <node ref="U19" pin="8"/>
+    </net>
+    <net code="196" name="/Address comparator/sheet5CD1F072/A3">
+      <node ref="U33" pin="9"/>
+      <node ref="U19" pin="11"/>
+    </net>
+    <net code="197" name="/Address comparator/sheet5CD3CB49/A0">
+      <node ref="U41" pin="1"/>
+      <node ref="U33" pin="2"/>
+    </net>
+    <net code="198" name="/Address comparator/sheet5CD3CB49/A1">
+      <node ref="U33" pin="4"/>
+      <node ref="U41" pin="2"/>
+    </net>
+    <net code="199" name="/Address comparator/sheet5CD35E49/A2">
+      <node ref="U25" pin="6"/>
+      <node ref="U37" pin="4"/>
+    </net>
+    <net code="200" name="/Address comparator/sheet5CD3CB49/A3">
+      <node ref="U41" pin="5"/>
+      <node ref="U33" pin="8"/>
+    </net>
+    <net code="201" name="/Address comparator/sheet5CD1F073/A0">
+      <node ref="U34" pin="1"/>
+      <node ref="U18" pin="3"/>
+    </net>
+    <net code="202" name="/Address comparator/sheet5CD1F073/A1">
+      <node ref="U18" pin="6"/>
+      <node ref="U34" pin="3"/>
+    </net>
+    <net code="203" name="/Address comparator/sheet5CD1F073/A2">
+      <node ref="U34" pin="5"/>
+      <node ref="U18" pin="8"/>
+    </net>
+    <net code="204" name="/Address comparator/sheet5CD1F073/A3">
+      <node ref="U18" pin="11"/>
+      <node ref="U34" pin="9"/>
+    </net>
+    <net code="205" name="/Address comparator/sheet5CD3CB49/B0">
+      <node ref="U34" pin="2"/>
+      <node ref="U41" pin="9"/>
+    </net>
+    <net code="206" name="/Address comparator/sheet5CD3CB49/B1">
+      <node ref="U41" pin="10"/>
+      <node ref="U34" pin="4"/>
+    </net>
+    <net code="207" name="/Address comparator/sheet5CD3CB47/B1">
+      <node ref="U39" pin="10"/>
+      <node ref="U30" pin="4"/>
+    </net>
+    <net code="208" name="/Address comparator/sheet5CD3CB47/B2">
+      <node ref="U30" pin="6"/>
+      <node ref="U39" pin="12"/>
+    </net>
+    <net code="209" name="/Address comparator/sheet5CD3CB47/B3">
+      <node ref="U30" pin="8"/>
+      <node ref="U39" pin="13"/>
+    </net>
+    <net code="210" name="/Address comparator/sheet5CD3CB48/A0">
+      <node ref="U40" pin="1"/>
+      <node ref="U31" pin="2"/>
+    </net>
+    <net code="211" name="/Address comparator/sheet5CD3CB48/A1">
+      <node ref="U40" pin="2"/>
+      <node ref="U31" pin="4"/>
+    </net>
+    <net code="212" name="/Address comparator/sheet5CD3CB48/A2">
+      <node ref="U40" pin="4"/>
+      <node ref="U31" pin="6"/>
+    </net>
+    <net code="213" name="/Address comparator/sheet5CD3CB48/A3">
+      <node ref="U31" pin="8"/>
+      <node ref="U40" pin="5"/>
+    </net>
+    <net code="214" name="/Address comparator/sheet5CD3CB47/B0">
+      <node ref="U39" pin="9"/>
+      <node ref="U30" pin="2"/>
+    </net>
+    <net code="215" name="/Address comparator/sheet5CD3CB46/A3">
+      <node ref="U27" pin="8"/>
+      <node ref="U38" pin="5"/>
+    </net>
+    <net code="216" name="/Address comparator/sheet5CD35E49/A3">
+      <node ref="U25" pin="8"/>
+      <node ref="U37" pin="5"/>
+    </net>
+    <net code="217" name="/Address comparator/sheet5CD35E49/B0">
+      <node ref="U37" pin="9"/>
+      <node ref="U26" pin="2"/>
+    </net>
+    <net code="218" name="/Address comparator/sheet5CD35E49/B1">
+      <node ref="U37" pin="10"/>
+      <node ref="U26" pin="4"/>
+    </net>
+    <net code="219" name="/Address comparator/sheet5CD35E49/B2">
+      <node ref="U37" pin="12"/>
+      <node ref="U26" pin="6"/>
+    </net>
+    <net code="220" name="/Address comparator/sheet5CD35E49/B3">
+      <node ref="U26" pin="8"/>
+      <node ref="U37" pin="13"/>
+    </net>
+    <net code="221" name="/Address comparator/sheet5CD3CB46/A0">
+      <node ref="U38" pin="1"/>
+      <node ref="U27" pin="2"/>
+    </net>
+    <net code="222" name="/Address comparator/sheet5CD3CB46/A1">
+      <node ref="U38" pin="2"/>
+      <node ref="U27" pin="4"/>
+    </net>
+    <net code="223" name="/Address comparator/sheet5CD3CB46/A2">
+      <node ref="U27" pin="6"/>
+      <node ref="U38" pin="4"/>
+    </net>
+    <net code="224" name="/Address comparator/sheet5CD3CB46/B0">
+      <node ref="U28" pin="2"/>
+      <node ref="U38" pin="9"/>
+    </net>
+    <net code="225" name="/Address comparator/sheet5CD3CB46/B1">
+      <node ref="U38" pin="10"/>
+      <node ref="U28" pin="4"/>
+    </net>
+    <net code="226" name="/Address comparator/sheet5CD3CB46/B2">
+      <node ref="U38" pin="12"/>
+      <node ref="U28" pin="6"/>
+    </net>
+    <net code="227" name="/Address comparator/sheet5CD3CB46/B3">
+      <node ref="U38" pin="13"/>
+      <node ref="U28" pin="8"/>
+    </net>
+    <net code="228" name="/Address comparator/sheet5CD3CB47/A0">
+      <node ref="U29" pin="2"/>
+      <node ref="U39" pin="1"/>
+    </net>
+    <net code="229" name="/Address comparator/sheet5CD3CB47/A1">
+      <node ref="U29" pin="4"/>
+      <node ref="U39" pin="2"/>
+    </net>
+    <net code="230" name="/Address comparator/sheet5CD3CB47/A2">
+      <node ref="U29" pin="6"/>
+      <node ref="U39" pin="4"/>
+    </net>
+    <net code="231" name="/Address comparator/sheet5CD3CB47/A3">
+      <node ref="U39" pin="5"/>
+      <node ref="U29" pin="8"/>
+    </net>
+    <net code="232" name="/Address comparator/4-bitwise NOT/A1">
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="233" name="/Address comparator/4-bitwise NOT/A0">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="234" name="/Address comparator/4-bitwise NOT/A3">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="235" name="/Address comparator/4-bitwise NOT/A2">
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="236" name="/Address comparator/2x  Quad AND/A3">
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="237" name="/Address comparator/2x  Quad AND/B3">
+      <node ref="U20" pin="8"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="238" name="/Address comparator/2x  Quad AND/B2">
+      <node ref="U20" pin="6"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="239" name="/Address comparator/2x  Quad AND/B1">
+      <node ref="U4" pin="10"/>
+      <node ref="U20" pin="4"/>
+    </net>
+    <net code="240" name="/Address comparator/2x  Quad AND/B0">
+      <node ref="U4" pin="9"/>
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="241" name="/Address comparator/2x  Quad AND/A2">
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="242" name="/Address comparator/2x  Quad AND/A1">
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="243" name="/Address comparator/2x  Quad AND/A0">
+      <node ref="U3" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="244" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U27" pin="11"/>
+      <node ref="U14" pin="7"/>
+      <node ref="U14" pin="9"/>
+      <node ref="U27" pin="13"/>
+      <node ref="U27" pin="7"/>
+      <node ref="U40" pin="7"/>
+      <node ref="C42" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U25" pin="11"/>
+      <node ref="U25" pin="13"/>
+      <node ref="U25" pin="7"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U15" pin="9"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U26" pin="11"/>
+      <node ref="U15" pin="7"/>
+      <node ref="U26" pin="13"/>
+      <node ref="U26" pin="7"/>
+      <node ref="U39" pin="7"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="J1" pin="b19"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U13" pin="7"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U12" pin="7"/>
+      <node ref="U12" pin="12"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U41" pin="7"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U30" pin="11"/>
+      <node ref="U30" pin="13"/>
+      <node ref="J1" pin="a19"/>
+      <node ref="U30" pin="7"/>
+      <node ref="U28" pin="13"/>
+      <node ref="U28" pin="7"/>
+      <node ref="U31" pin="11"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U28" pin="11"/>
+      <node ref="U31" pin="7"/>
+      <node ref="U29" pin="11"/>
+      <node ref="U29" pin="13"/>
+      <node ref="U29" pin="7"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U13" pin="9"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U31" pin="13"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U33" pin="13"/>
+      <node ref="U33" pin="7"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U33" pin="11"/>
+      <node ref="U21" pin="7"/>
+      <node ref="U21" pin="13"/>
+      <node ref="U21" pin="11"/>
+      <node ref="J1" pin="b32"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U36" pin="7"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U22" pin="7"/>
+      <node ref="U22" pin="13"/>
+      <node ref="U22" pin="11"/>
+      <node ref="U18" pin="7"/>
+      <node ref="J1" pin="a1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U34" pin="7"/>
+      <node ref="U34" pin="11"/>
+      <node ref="U20" pin="11"/>
+      <node ref="U34" pin="13"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U20" pin="7"/>
+      <node ref="U20" pin="13"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U35" pin="7"/>
+      <node ref="U19" pin="7"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U19" pin="1"/>
+      <node ref="U24" pin="13"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U24" pin="11"/>
+      <node ref="U24" pin="7"/>
+      <node ref="U16" pin="4"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U16" pin="7"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J1" pin="a32"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U38" pin="7"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U32" pin="7"/>
+      <node ref="U32" pin="11"/>
+      <node ref="U32" pin="13"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U37" pin="7"/>
+      <node ref="U17" pin="4"/>
+      <node ref="J1" pin="b1"/>
+      <node ref="U17" pin="7"/>
+      <node ref="U23" pin="11"/>
+      <node ref="U23" pin="13"/>
+      <node ref="U23" pin="7"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U50" pin="4"/>
+      <node ref="U47" pin="7"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U8" pin="7"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U44" pin="9"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U44" pin="10"/>
+      <node ref="U44" pin="12"/>
+      <node ref="U42" pin="7"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U49" pin="4"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="U44" pin="7"/>
+      <node ref="U44" pin="13"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U43" pin="7"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="SW2" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U10" pin="7"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="U46" pin="7"/>
+      <node ref="U10" pin="12"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="SW1" pin="6"/>
+      <node ref="SW1" pin="7"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U51" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U11" pin="7"/>
+      <node ref="SW2" pin="8"/>
+      <node ref="U11" pin="9"/>
+      <node ref="SW2" pin="7"/>
+      <node ref="U11" pin="4"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U48" pin="7"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U45" pin="7"/>
+      <node ref="U52" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="245" name="VCC">
+      <node ref="C27" pin="1"/>
+      <node ref="U46" pin="14"/>
+      <node ref="U47" pin="14"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U48" pin="14"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U26" pin="14"/>
+      <node ref="U45" pin="14"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U25" pin="14"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U4" pin="14"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U31" pin="14"/>
+      <node ref="U3" pin="14"/>
+      <node ref="C33" pin="1"/>
+      <node ref="J1" pin="a2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U50" pin="5"/>
+      <node ref="U30" pin="14"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U52" pin="5"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U51" pin="5"/>
+      <node ref="U32" pin="14"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J1" pin="a20"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U33" pin="14"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U27" pin="14"/>
+      <node ref="U34" pin="14"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U29" pin="14"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="a31"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U28" pin="14"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="U39" pin="14"/>
+      <node ref="U40" pin="14"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U15" pin="4"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U15" pin="12"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U15" pin="14"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U17" pin="9"/>
+      <node ref="U17" pin="14"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U17" pin="12"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U38" pin="14"/>
+      <node ref="U17" pin="1"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U16" pin="9"/>
+      <node ref="U16" pin="12"/>
+      <node ref="U16" pin="14"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U8" pin="14"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U41" pin="14"/>
+      <node ref="U11" pin="14"/>
+      <node ref="C13" pin="1"/>
+      <node ref="J1" pin="b2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J1" pin="b31"/>
+      <node ref="U13" pin="12"/>
+      <node ref="U11" pin="12"/>
+      <node ref="U12" pin="14"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U13" pin="14"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U14" pin="14"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U14" pin="12"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="9"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U10" pin="14"/>
+      <node ref="U22" pin="14"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U36" pin="14"/>
+      <node ref="U21" pin="14"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U23" pin="14"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U35" pin="14"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U24" pin="14"/>
+      <node ref="U49" pin="5"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U43" pin="14"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U37" pin="14"/>
+      <node ref="U7" pin="14"/>
+      <node ref="U18" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U18" pin="4"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U18" pin="9"/>
+      <node ref="U18" pin="12"/>
+      <node ref="U18" pin="14"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U42" pin="14"/>
+      <node ref="J1" pin="b20"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U20" pin="14"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U5" pin="14"/>
+      <node ref="U44" pin="14"/>
+      <node ref="U19" pin="4"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U19" pin="9"/>
+      <node ref="U19" pin="12"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U19" pin="14"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="246" name="/Address comparator/sheet5CD1837B/A0">
+      <node ref="U28" pin="1"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="247" name="/Address comparator/sheet5CD1837B/A1">
+      <node ref="U13" pin="6"/>
+      <node ref="U28" pin="3"/>
+    </net>
+    <net code="248" name="/Address comparator/sheet5CD11687/A3">
+      <node ref="U26" pin="9"/>
+      <node ref="U12" pin="11"/>
+    </net>
+    <net code="249" name="/Address comparator/sheet5CD11687/A2">
+      <node ref="U26" pin="5"/>
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="250" name="/Address comparator/sheet5CD11687/A1">
+      <node ref="U26" pin="3"/>
+      <node ref="U12" pin="6"/>
+    </net>
+    <net code="251" name="/Address comparator/sheet5CD11687/A0">
+      <node ref="U26" pin="1"/>
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="252" name="/Address comparator/sheet5CD1837D/A3">
+      <node ref="U30" pin="9"/>
+      <node ref="U14" pin="11"/>
+    </net>
+    <net code="253" name="/Address comparator/sheet5CD1837D/A2">
+      <node ref="U30" pin="5"/>
+      <node ref="U14" pin="8"/>
+    </net>
+    <net code="254" name="/Address comparator/sheet5CD1837D/A1">
+      <node ref="U14" pin="6"/>
+      <node ref="U30" pin="3"/>
+    </net>
+    <net code="255" name="/Address comparator/sheet5CD1837D/A0">
+      <node ref="U14" pin="3"/>
+      <node ref="U30" pin="1"/>
+    </net>
+    <net code="256" name="/Address comparator/sheet5CD1837B/A3">
+      <node ref="U13" pin="11"/>
+      <node ref="U28" pin="9"/>
+    </net>
+    <net code="257" name="/Address comparator/sheet5CD1837B/A2">
+      <node ref="U28" pin="5"/>
+      <node ref="U13" pin="8"/>
+    </net>
+    <net code="258" name="/Address comparator/sheet5CD11686/A3">
+      <node ref="U25" pin="9"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="259" name="/Address comparator/sheet5CD11686/A2">
+      <node ref="U10" pin="8"/>
+      <node ref="U25" pin="5"/>
+    </net>
+    <net code="260" name="/Address comparator/sheet5CD11686/A1">
+      <node ref="U10" pin="6"/>
+      <node ref="U25" pin="3"/>
+    </net>
+    <net code="261" name="/Address comparator/sheet5CD11686/A0">
+      <node ref="U10" pin="3"/>
+      <node ref="U25" pin="1"/>
+    </net>
+    <net code="262" name="/Address comparator/sheet5CD11684/A3">
+      <node ref="U23" pin="9"/>
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="263" name="/Address comparator/sheet5CD11684/A2">
+      <node ref="U9" pin="8"/>
+      <node ref="U23" pin="5"/>
+    </net>
+    <net code="264" name="/Address comparator/sheet5CD11684/A1">
+      <node ref="U23" pin="3"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="265" name="/Address comparator/sheet5CD11684/A0">
+      <node ref="U9" pin="3"/>
+      <node ref="U23" pin="1"/>
+    </net>
+    <net code="266" name="/Address comparator/sheet5CD1837A/A0">
+      <node ref="U27" pin="1"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="267" name="/Address comparator/sheet5CD1837A/A1">
+      <node ref="U27" pin="3"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="268" name="/Address comparator/sheet5CD1837A/A2">
+      <node ref="U11" pin="8"/>
+      <node ref="U27" pin="5"/>
+    </net>
+    <net code="269" name="/Address comparator/sheet5CD1837A/A3">
+      <node ref="U11" pin="11"/>
+      <node ref="U27" pin="9"/>
+    </net>
+    <net code="270" name="/Address comparator/sheet5CCFCFC3/A0">
+      <node ref="U6" pin="3"/>
+      <node ref="U20" pin="1"/>
+    </net>
+    <net code="271" name="/Address comparator/sheet5CD03CAA/A0">
+      <node ref="U5" pin="3"/>
+      <node ref="U21" pin="1"/>
+    </net>
+    <net code="272" name="/Address comparator/sheet5CCFCFC3/A3">
+      <node ref="U20" pin="9"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="273" name="/Address comparator/sheet5CCFCFC3/A2">
+      <node ref="U20" pin="5"/>
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="274" name="/Address comparator/sheet5CCFCFC3/A1">
+      <node ref="U20" pin="3"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="275" name="/Address comparator/sheet5CD1F071/A3">
+      <node ref="U32" pin="9"/>
+      <node ref="U17" pin="11"/>
+    </net>
+    <net code="276" name="/Address comparator/sheet5CD1837C/A2">
+      <node ref="U29" pin="5"/>
+      <node ref="U15" pin="8"/>
+    </net>
+    <net code="277" name="/Address comparator/sheet5CD1837C/A3">
+      <node ref="U15" pin="11"/>
+      <node ref="U29" pin="9"/>
+    </net>
+    <net code="278" name="/Address comparator/sheet5CD1837C/A1">
+      <node ref="U15" pin="6"/>
+      <node ref="U29" pin="3"/>
+    </net>
+    <net code="279" name="/Address comparator/sheet5CD1837C/A0">
+      <node ref="U15" pin="3"/>
+      <node ref="U29" pin="1"/>
+    </net>
+    <net code="280" name="/Address comparator/sheet5CD1F070/A0">
+      <node ref="U16" pin="3"/>
+      <node ref="U31" pin="1"/>
+    </net>
+    <net code="281" name="/Address comparator/sheet5CD1F070/A1">
+      <node ref="U16" pin="6"/>
+      <node ref="U31" pin="3"/>
+    </net>
+    <net code="282" name="/Address comparator/sheet5CD1F070/A2">
+      <node ref="U16" pin="8"/>
+      <node ref="U31" pin="5"/>
+    </net>
+    <net code="283" name="/Address comparator/sheet5CD1F070/A3">
+      <node ref="U16" pin="11"/>
+      <node ref="U31" pin="9"/>
+    </net>
+    <net code="284" name="/Address comparator/sheet5CD1F071/A0">
+      <node ref="U32" pin="1"/>
+      <node ref="U17" pin="3"/>
+    </net>
+    <net code="285" name="/Address comparator/sheet5CD1F071/A1">
+      <node ref="U17" pin="6"/>
+      <node ref="U32" pin="3"/>
+    </net>
+    <net code="286" name="/Address comparator/sheet5CD1F071/A2">
+      <node ref="U17" pin="8"/>
+      <node ref="U32" pin="5"/>
+    </net>
+    <net code="287" name="/Address comparator/sheet5CD0A991/A3">
+      <node ref="U7" pin="11"/>
+      <node ref="U22" pin="9"/>
+    </net>
+    <net code="288" name="/Address comparator/sheet5CD0A991/A2">
+      <node ref="U22" pin="5"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="289" name="/Address comparator/sheet5CD0A991/A1">
+      <node ref="U7" pin="6"/>
+      <node ref="U22" pin="3"/>
+    </net>
+    <net code="290" name="/Address comparator/sheet5CD0A991/A0">
+      <node ref="U22" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="291" name="/Address comparator/sheet5CD11685/A0">
+      <node ref="U8" pin="3"/>
+      <node ref="U24" pin="1"/>
+    </net>
+    <net code="292" name="/Address comparator/sheet5CD11685/A1">
+      <node ref="U24" pin="3"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="293" name="/Address comparator/sheet5CD11685/A2">
+      <node ref="U24" pin="5"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="294" name="/Address comparator/sheet5CD11685/A3">
+      <node ref="U24" pin="9"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="295" name="/Address comparator/sheet5CD03CAA/A1">
+      <node ref="U5" pin="6"/>
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="296" name="/Address comparator/sheet5CD03CAA/A2">
+      <node ref="U21" pin="5"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="297" name="/Address comparator/sheet5CD03CAA/A3">
+      <node ref="U21" pin="9"/>
+      <node ref="U5" pin="11"/>
+    </net>
+  </nets>
+</export>
