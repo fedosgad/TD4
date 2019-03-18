@@ -156,10 +156,6 @@ Text Label 6900 3150 2    50   ~ 0
 Q[0..3]
 Text HLabel 7000 3150 2    50   Output ~ 0
 Q[0..3]
-Wire Bus Line
-	6400 3150 6400 3550
-Wire Bus Line
-	4900 3350 4900 3550
 Wire Wire Line
 	5100 3150 5200 3150
 Wire Wire Line
@@ -175,4 +171,8 @@ F 3 "" H 5100 3050 50  0001 C CNN
 	1    5100 3050
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4900 3350 4900 3550
+Wire Bus Line
+	6400 3150 6400 3550
 $EndSCHEMATC

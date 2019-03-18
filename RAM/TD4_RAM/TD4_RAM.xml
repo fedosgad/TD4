@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/trash/kicad/TD4/RAM/TD4_RAM/TD4_RAM.sch</source>
-    <date>Fri 22 Feb 2019 06:22:16 PM MSK</date>
+    <date>Thu 28 Feb 2019 06:02:26 PM MSK</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1305,7 +1305,7 @@
       <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
       <tstamp>5C969D91</tstamp>
     </comp>
-    <comp ref="U44">
+    <comp ref="U43">
       <value>74HC21</value>
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
@@ -1313,13 +1313,13 @@
       <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
       <tstamp>5C969E1F</tstamp>
     </comp>
-    <comp ref="U43">
+    <comp ref="U44">
       <value>74HC21</value>
       <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/gpn/sn74LS21</datasheet>
       <libsource lib="74xx" part="74LS21" description="Dual 4-input AND"/>
       <sheetpath names="/sheet5CBA2603/" tstamps="/5CBA2607/"/>
-      <tstamp>5C969E49</tstamp>
+      <tstamp>5C969E75</tstamp>
     </comp>
     <comp ref="C44">
       <value>100n</value>
@@ -2173,7 +2173,7 @@
     </net>
     <net code="53" name="/sheet5CBA2603/Q0">
       <node ref="U1" pin="1"/>
-      <node ref="U43" pin="6"/>
+      <node ref="U44" pin="6"/>
     </net>
     <net code="55" name="Net-(U50-Pad14)">
       <node ref="U50" pin="14"/>
@@ -2203,20 +2203,20 @@
       <node ref="U44" pin="8"/>
     </net>
     <net code="79" name="Net-(U42-Pad6)">
-      <node ref="U43" pin="1"/>
+      <node ref="U44" pin="1"/>
       <node ref="U42" pin="6"/>
     </net>
     <net code="80" name="Net-(U42-Pad8)">
-      <node ref="U43" pin="2"/>
+      <node ref="U44" pin="2"/>
       <node ref="U42" pin="8"/>
     </net>
-    <net code="81" name="Net-(U43-Pad4)">
-      <node ref="U44" pin="6"/>
-      <node ref="U43" pin="4"/>
+    <net code="81" name="Net-(U43-Pad6)">
+      <node ref="U43" pin="6"/>
+      <node ref="U44" pin="4"/>
     </net>
-    <net code="82" name="Net-(U43-Pad5)">
+    <net code="82" name="Net-(U43-Pad8)">
       <node ref="U43" pin="8"/>
-      <node ref="U43" pin="5"/>
+      <node ref="U44" pin="5"/>
     </net>
     <net code="86" name="Net-(U3-Pad12)">
       <node ref="U3" pin="12"/>
@@ -2373,19 +2373,19 @@
       <node ref="U48" pin="3"/>
     </net>
     <net code="127" name="/sheet5CBA2603/A11">
-      <node ref="U44" pin="5"/>
+      <node ref="U43" pin="5"/>
       <node ref="U46" pin="11"/>
     </net>
     <net code="128" name="/sheet5CBA2603/A10">
-      <node ref="U44" pin="4"/>
+      <node ref="U43" pin="4"/>
       <node ref="U46" pin="8"/>
     </net>
     <net code="129" name="/sheet5CBA2603/A9">
-      <node ref="U44" pin="2"/>
+      <node ref="U43" pin="2"/>
       <node ref="U46" pin="6"/>
     </net>
     <net code="130" name="/sheet5CBA2603/A8">
-      <node ref="U44" pin="1"/>
+      <node ref="U43" pin="1"/>
       <node ref="U46" pin="3"/>
     </net>
     <net code="131" name="/sheet5CBF05D3/A3">
