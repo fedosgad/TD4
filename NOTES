@@ -43,6 +43,8 @@ Key ICs:
  - (EEP)ROM - 
 
 PCB dimensions:
-	190 x 160 mm
+	190 x 160 mm - most of PCBs
+	160 x 40 mm - ROM
+	Will be changed to standard Eurocard-sized PCBs in the future
 Mounting holes:
 	4 x M4, 10 mm from edges (170 x 140 mm rectangle)
