@@ -2,8 +2,21 @@ PCBs to make:
  - core - TD4 itself
  - clock/reset - clock generator (fixed/variable) + reset circuits
  - ROM - all 256 bytes on a single PCB
- - RAM - 16 bytes per PCB
- - backplane - 20 slots for all other PCBs + power circuits
+ - RAM - 16 nibbles per PCB (128 bytes on one PCB, selectable banks)
+ - backplane - 20 (5 for v1.0) slots for all other PCBs + power circuits (barrel jack)
+ - monitor - LEDs on all buses and for debug headers on core + IN switches
+
+Clock frequencies:
+	- no clock (switch)
+	- manual
+	- 1 Hz
+	- 10 Hz
+	- 100 Hz
+	- 1 kHz
+	- 10 kHz
+	- 100 kHz
+	- variable
+Currently selection is made by toggling DIP switches.
 
 Backplane carries:
     Signals:
@@ -31,7 +44,7 @@ Will use 2x32 (64 pin) DIN connectors.
 Debug headers:
 	Core PCB will have additional headers for monitoring registers (A & B)
 	and carry flag (both from adder and from register). They are not worth
-	it to break them out to back plane, thus new headers (detachable debug).
+	it to break them out to backplane, thus new headers (detachable debug).
 	Other PCBs may also require similar header.
 	DEBUG_ON pin on backplane enables the debug outputs
 
@@ -44,7 +57,7 @@ Key ICs:
 
 PCB dimensions:
 	190 x 160 mm - most of PCBs
-	160 x 40 mm - ROM
+	160 x 40 mm - ROM, clock & reset
 	Will be changed to standard Eurocard-sized PCBs in the future
 Mounting holes:
 	4 x M4, 10 mm from edges (170 x 140 mm rectangle)
