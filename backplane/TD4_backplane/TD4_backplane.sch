@@ -1539,4 +1539,271 @@ Wire Wire Line
 	9300 3500 9300 3400
 Wire Wire Line
 	9300 3400 9400 3400
+$Comp
+L Connector_Generic:Conn_02x32_Row_Letter_First J7
+U 1 1 5C9CF243
+P 6850 2300
+F 0 "J7" H 6900 4017 50  0000 C CNN
+F 1 "Conn_02x32_Row_Letter_First" H 6900 3926 50  0000 C CNN
+F 2 "Connector_DIN:DIN41612_B_2x32_Vertical" H 6850 2300 50  0001 C CNN
+F 3 "~" H 6850 2300 50  0001 C CNN
+	1    6850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 800  6650 800 
+Wire Wire Line
+	6450 900  6650 900 
+Wire Wire Line
+	6450 1000 6650 1000
+Wire Wire Line
+	6450 1100 6650 1100
+Wire Wire Line
+	6450 1200 6650 1200
+Wire Wire Line
+	6450 1300 6650 1300
+Wire Wire Line
+	6450 1400 6650 1400
+Wire Wire Line
+	6450 1500 6650 1500
+Wire Wire Line
+	6450 1600 6650 1600
+Wire Wire Line
+	6450 1700 6650 1700
+Wire Wire Line
+	6450 1800 6650 1800
+Wire Wire Line
+	6450 1900 6650 1900
+Wire Wire Line
+	6450 2000 6650 2000
+Wire Wire Line
+	6450 2100 6650 2100
+Wire Wire Line
+	6450 2200 6650 2200
+Wire Wire Line
+	6450 2300 6650 2300
+Wire Wire Line
+	6450 2400 6650 2400
+Wire Wire Line
+	6450 2500 6650 2500
+Wire Wire Line
+	6450 2600 6650 2600
+Wire Wire Line
+	6450 2700 6650 2700
+Wire Wire Line
+	6450 2800 6650 2800
+Wire Wire Line
+	6450 2900 6650 2900
+Wire Wire Line
+	6450 3000 6650 3000
+Wire Wire Line
+	6450 3100 6650 3100
+Wire Wire Line
+	6450 3200 6650 3200
+Wire Wire Line
+	6450 3300 6650 3300
+Wire Wire Line
+	6450 3400 6650 3400
+Wire Wire Line
+	6450 3500 6650 3500
+Wire Wire Line
+	6450 3600 6650 3600
+Wire Wire Line
+	6450 3700 6650 3700
+Wire Wire Line
+	6450 3800 6650 3800
+Wire Wire Line
+	6450 3900 6650 3900
+Text Label 6450 800  0    50   ~ 0
+A0
+Text Label 6450 900  0    50   ~ 0
+A1
+Text Label 6450 1000 0    50   ~ 0
+A2
+Text Label 6450 1100 0    50   ~ 0
+A3
+Text Label 6450 1200 0    50   ~ 0
+A4
+Text Label 6450 1300 0    50   ~ 0
+A5
+Text Label 6450 1400 0    50   ~ 0
+A6
+Text Label 6450 1500 0    50   ~ 0
+A7
+Text Label 6450 1600 0    50   ~ 0
+A8
+Text Label 6450 1700 0    50   ~ 0
+A9
+Text Label 6450 1800 0    50   ~ 0
+A10
+Text Label 6450 1900 0    50   ~ 0
+A11
+Text Label 6450 2000 0    50   ~ 0
+A12
+Text Label 6450 2100 0    50   ~ 0
+A13
+Text Label 6450 2200 0    50   ~ 0
+A14
+Text Label 6450 2300 0    50   ~ 0
+A15
+Text Label 6450 2400 0    50   ~ 0
+A16
+Text Label 6450 2500 0    50   ~ 0
+A17
+Text Label 6450 2600 0    50   ~ 0
+A18
+Text Label 6450 2700 0    50   ~ 0
+A19
+Text Label 6450 2800 0    50   ~ 0
+A20
+Text Label 6450 2900 0    50   ~ 0
+A21
+Text Label 6450 3000 0    50   ~ 0
+A22
+Text Label 6450 3100 0    50   ~ 0
+A23
+Text Label 6450 3200 0    50   ~ 0
+A24
+Text Label 6450 3300 0    50   ~ 0
+A25
+Text Label 6450 3400 0    50   ~ 0
+A26
+Text Label 6450 3500 0    50   ~ 0
+A27
+Text Label 6450 3600 0    50   ~ 0
+A28
+Text Label 6450 3700 0    50   ~ 0
+A29
+Text Label 6450 3800 0    50   ~ 0
+A30
+Text Label 6450 3900 0    50   ~ 0
+A31
+Wire Wire Line
+	7150 800  7350 800 
+Wire Wire Line
+	7150 900  7350 900 
+Wire Wire Line
+	7150 1000 7350 1000
+Wire Wire Line
+	7150 1100 7350 1100
+Wire Wire Line
+	7150 1200 7350 1200
+Wire Wire Line
+	7150 1300 7350 1300
+Wire Wire Line
+	7150 1400 7350 1400
+Wire Wire Line
+	7150 1500 7350 1500
+Wire Wire Line
+	7150 1600 7350 1600
+Wire Wire Line
+	7150 1700 7350 1700
+Wire Wire Line
+	7150 1800 7350 1800
+Wire Wire Line
+	7150 1900 7350 1900
+Wire Wire Line
+	7150 2000 7350 2000
+Wire Wire Line
+	7150 2100 7350 2100
+Wire Wire Line
+	7150 2200 7350 2200
+Wire Wire Line
+	7150 2300 7350 2300
+Wire Wire Line
+	7150 2400 7350 2400
+Wire Wire Line
+	7150 2500 7350 2500
+Wire Wire Line
+	7150 2600 7350 2600
+Wire Wire Line
+	7150 2700 7350 2700
+Wire Wire Line
+	7150 2800 7350 2800
+Wire Wire Line
+	7150 2900 7350 2900
+Wire Wire Line
+	7150 3000 7350 3000
+Wire Wire Line
+	7150 3100 7350 3100
+Wire Wire Line
+	7150 3200 7350 3200
+Wire Wire Line
+	7150 3300 7350 3300
+Wire Wire Line
+	7150 3400 7350 3400
+Wire Wire Line
+	7150 3500 7350 3500
+Wire Wire Line
+	7150 3600 7350 3600
+Wire Wire Line
+	7150 3700 7350 3700
+Wire Wire Line
+	7150 3800 7350 3800
+Wire Wire Line
+	7150 3900 7350 3900
+Text Label 7350 800  2    50   ~ 0
+A32
+Text Label 7350 900  2    50   ~ 0
+A33
+Text Label 7350 1000 2    50   ~ 0
+A34
+Text Label 7350 1100 2    50   ~ 0
+A35
+Text Label 7350 1200 2    50   ~ 0
+A36
+Text Label 7350 1300 2    50   ~ 0
+A37
+Text Label 7350 1400 2    50   ~ 0
+A38
+Text Label 7350 1500 2    50   ~ 0
+A39
+Text Label 7350 1600 2    50   ~ 0
+A40
+Text Label 7350 1700 2    50   ~ 0
+A41
+Text Label 7350 1800 2    50   ~ 0
+A42
+Text Label 7350 1900 2    50   ~ 0
+A43
+Text Label 7350 2000 2    50   ~ 0
+A44
+Text Label 7350 2100 2    50   ~ 0
+A45
+Text Label 7350 2200 2    50   ~ 0
+A46
+Text Label 7350 2300 2    50   ~ 0
+A47
+Text Label 7350 2400 2    50   ~ 0
+A48
+Text Label 7350 2500 2    50   ~ 0
+A49
+Text Label 7350 2600 2    50   ~ 0
+A50
+Text Label 7350 2700 2    50   ~ 0
+A51
+Text Label 7350 2800 2    50   ~ 0
+A52
+Text Label 7350 2900 2    50   ~ 0
+A53
+Text Label 7350 3000 2    50   ~ 0
+A54
+Text Label 7350 3100 2    50   ~ 0
+A55
+Text Label 7350 3200 2    50   ~ 0
+A56
+Text Label 7350 3300 2    50   ~ 0
+A57
+Text Label 7350 3400 2    50   ~ 0
+A58
+Text Label 7350 3500 2    50   ~ 0
+A59
+Text Label 7350 3600 2    50   ~ 0
+A60
+Text Label 7350 3700 2    50   ~ 0
+A61
+Text Label 7350 3800 2    50   ~ 0
+A62
+Text Label 7350 3900 2    50   ~ 0
+A63
 $EndSCHEMATC
